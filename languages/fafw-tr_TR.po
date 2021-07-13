@@ -1,0 +1,523 @@
+# Copyright (C) 2020 Finpose
+# This file is distributed under the same license as the Finpose plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose 2.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/finpose\n"
+"Language-Team: Türkçe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-01T21:35:43+03:00\n"
+"PO-Revision-Date: 2021-04-20 07:39+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: fafw\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr_TR\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "Finpose"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"WooCommerce'nin muhasebesi. Seçebileceğiniz zaman dilimleri için "
+"envanterinizi, harcamalarınızı, vergilerinizi ve hesaplarınızı izleyin."
+
+#: admin/class-fafw-admin.php:158
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "Bu sayfayı görüntülemenize izin verilmez. Lütfen yöneticiye başvurun."
+
+#: admin/views/accounts.php:4 admin/views/accounts.php:113
+#: admin/views/accounts.php:153 admin/views/accounts.php:231
+#: admin/views/expenses.php:5 admin/views/inventory.php:5
+#: admin/views/inventory.php:105 admin/views/inventory.php:164
+#: admin/views/spendings.php:5 admin/views/spendings.php:202
+#: admin/views/taxes.php:71
+msgid "close"
+msgstr "kapat"
+
+#: admin/views/accounts.php:33 admin/views/accounts.php:150
+msgid "Transfer Between Accounts"
+msgstr "Hesaplar Arası Transfer"
+
+#: admin/views/accounts.php:110
+msgid "Edit Account"
+msgstr "Hesabı Düzenle"
+
+#: admin/views/accounts.php:125 admin/views/accounts.php:242
+msgid "Account Name"
+msgstr "Hesap Adı"
+
+#: admin/views/accounts.php:131 admin/views/accounts.php:211
+#: admin/views/accounts.php:259 admin/views/categories.php:139
+#: admin/views/categories.php:177 admin/views/expenses.php:158
+#: admin/views/inventory.php:141 admin/views/inventory.php:200
+#: admin/views/spendings.php:149 admin/views/spendings.php:181
+#: admin/views/spendings.php:274 admin/views/taxes.php:98
+msgid "Save"
+msgstr "Kaydet"
+
+#: admin/views/accounts.php:137
+msgid "Delete Account"
+msgstr "Hesabı Sil"
+
+#: admin/views/accounts.php:164
+msgid "Account From"
+msgstr "Kaynak Hesap"
+
+#: admin/views/accounts.php:174
+msgid "Account To"
+msgstr "Hedef Hesap"
+
+#: admin/views/accounts.php:184 admin/views/expenses.php:120
+#: admin/views/expenses.php:172 admin/views/spendings.php:103
+#: admin/views/spendings.php:234 admin/views/taxes.php:85
+msgid "Amount"
+msgstr "Miktar"
+
+#: admin/views/accounts.php:195
+msgid "Date Transfer"
+msgstr "Transfer tarihi"
+
+#: admin/views/accounts.php:202 admin/views/expenses.php:149
+#: admin/views/expenses.php:177 admin/views/spendings.php:105
+#: admin/views/spendings.php:269 admin/views/taxes.php:89
+msgid "Notes"
+msgstr "Notlar"
+
+#: admin/views/accounts.php:228
+msgid "Add New Account"
+msgstr "Yeni hesap ekle"
+
+#: admin/views/accounts.php:248
+msgid "Account Type"
+msgstr "Hesap türü"
+
+#: admin/views/accounts.php:266
+msgid ""
+"You may add other financial accounts you have such as bank accounts, credit "
+"cards as a custom gateway."
+msgstr ""
+"Banka hesapları, kredi kartlari ve online ödeme araçlarınızı ekleyebiliriniz."
+
+#: admin/views/accounts.php:267
+msgid ""
+"You may use an alias for the account name. e.g. UGS Bank #4172, Paycard "
+"#5513, Paypro ..."
+msgstr ""
+"Hesap adı olarak bir kısaltma kullanabilirsiniz. Örneğin UGS Bank #4172"
+
+#: admin/views/accounts.php:268
+msgid "Accounts can not be removed after added, may only be disabled."
+msgstr ""
+"Hesaplar eklendikten sonra kaldırılamaz, sadece pasif hale getirilebilir"
+
+#: admin/views/categories.php:4 admin/views/expenses.php:10
+#: admin/views/overview.php:29
+msgid "Costs"
+msgstr "Maliyetler"
+
+#: admin/views/categories.php:5 admin/views/expenses.php:11
+#: admin/views/expenses.php:18 admin/views/overview.php:36
+msgid "Expenses"
+msgstr "Harcamalar"
+
+#: admin/views/categories.php:6 admin/views/expenses.php:12
+#: admin/views/overview.php:43
+msgid "Acquisition"
+msgstr "Müşteri Edinme"
+
+#: admin/views/categories.php:7 admin/views/expenses.php:13
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: admin/views/categories.php:16 admin/views/categories.php:106
+#: admin/views/spendings.php:123 admin/views/taxes.php:68
+msgid "Add New Category"
+msgstr "Yeni kategori ekle"
+
+#: admin/views/categories.php:37 admin/views/categories.php:62
+#: admin/views/categories.php:87
+msgid "Edit"
+msgstr "Düzenle"
+
+#: admin/views/categories.php:39 admin/views/categories.php:64
+#: admin/views/categories.php:89
+msgid "Remove category ("
+msgstr "Kategori kaldır"
+
+#: admin/views/categories.php:39 admin/views/categories.php:64
+#: admin/views/categories.php:89 admin/views/expenses.php:193
+msgid "Remove"
+msgstr "Kaldır"
+
+#: admin/views/categories.php:116 admin/views/spendings.php:132
+#: admin/views/spendings.php:218
+msgid "Type"
+msgstr "Tür"
+
+#: admin/views/categories.php:126 admin/views/categories.php:164
+#: admin/views/expenses.php:79 admin/views/expenses.php:170
+#: admin/views/spendings.php:99 admin/views/spendings.php:140
+#: admin/views/spendings.php:172 admin/views/spendings.php:214
+msgid "Name"
+msgstr "Ad"
+
+#: admin/views/categories.php:132 admin/views/categories.php:170
+#: admin/views/spendings.php:144 admin/views/spendings.php:176
+msgid "Journal Code"
+msgstr "Muhasebe kodu"
+
+#: admin/views/categories.php:152 admin/views/spendings.php:161
+msgid "Edit Category"
+msgstr "Kategori düzenle"
+
+#: admin/views/dashboard.php:4
+msgid "Sales"
+msgstr "Satışlar"
+
+#: admin/views/expenses.php:26
+msgid "Filter Expenses"
+msgstr "Harcama filtrele"
+
+#: admin/views/expenses.php:27
+msgid "Add Expense"
+msgstr "Yeni harcama"
+
+#: admin/views/expenses.php:61
+msgid "List Expenses"
+msgstr "Harcamaları listele"
+
+#: admin/views/expenses.php:85 admin/views/expenses.php:171
+#: admin/views/spendings.php:100 admin/views/spendings.php:226
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/views/expenses.php:99 admin/views/expenses.php:174
+#: admin/views/inventory.php:132 admin/views/inventory.php:191
+#: admin/views/spendings.php:101 admin/views/spendings.php:248
+msgid "Paid With"
+msgstr "Ödeme aracı"
+
+#: admin/views/expenses.php:109 admin/views/expenses.php:175
+#: admin/views/spendings.php:102 admin/views/spendings.php:256
+#: admin/views/taxes.php:81
+msgid "Date Paid"
+msgstr "Ödeme tarihi"
+
+#: admin/views/expenses.php:127 admin/views/expenses.php:173
+#: admin/views/spendings.php:104 admin/views/spendings.php:238
+msgid "Tax Receivable"
+msgstr "Vergi alacağı"
+
+#: admin/views/expenses.php:138 admin/views/spendings.php:260
+msgid "Items"
+msgstr "Ürünler"
+
+#: admin/views/expenses.php:142 admin/views/spendings.php:262
+msgid "All Items"
+msgstr "Tüm ürünler"
+
+#: admin/views/expenses.php:176
+msgid "Date Added"
+msgstr "Ekleme tarihi"
+
+#: admin/views/expenses.php:178 admin/views/spendings.php:106
+msgid "Actions"
+msgstr "İşlemler"
+
+#: admin/views/expenses.php:193
+msgid "Remove expense from records?"
+msgstr "Harcamayı kayıtlardan sil?"
+
+#: admin/views/expenses.php:200
+msgid "Totals"
+msgstr "Toplamlar"
+
+#: admin/views/expenses.php:217
+msgid "To get updated totals"
+msgstr "Güncel toplamları almak için"
+
+#: admin/views/expenses.php:218
+msgid "refresh the page"
+msgstr "sayfayı yenile"
+
+#: admin/views/inventory.php:10
+msgid "Inventory"
+msgstr "Envanter"
+
+#: admin/views/inventory.php:77
+msgid "Out of stock"
+msgstr "Stokta yok"
+
+#: admin/views/inventory.php:79
+msgid "Not set"
+msgstr "Belirlenmedi"
+
+#: admin/views/inventory.php:102
+msgid "Set Stock Level"
+msgstr "Stok seviyesi belirle"
+
+#: admin/views/inventory.php:116 admin/views/inventory.php:175
+msgid "Product Name"
+msgstr "Ürün adı"
+
+#: admin/views/inventory.php:120 admin/views/inventory.php:179
+msgid "Number of Units"
+msgstr "Adet"
+
+#: admin/views/inventory.php:124 admin/views/inventory.php:183
+msgid "Cost of Single Unit"
+msgstr "Birim maliyet"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:187
+msgid "Total Tax Receivable"
+msgstr "Toplam vergi alacağı"
+
+#: admin/views/inventory.php:161
+msgid "Add Stock"
+msgstr "Stok ekle"
+
+#: admin/views/orders.php:4
+msgid "Orders"
+msgstr "Siparişler"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Filtrele ve Dışarı aktar"
+
+#: admin/views/orders.php:10
+msgid "Export"
+msgstr "Dışarı aktar"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "Filtrele"
+
+#: admin/views/overview.php:1
+msgid "Finpose Overview"
+msgstr "Finpose'a Genel Bakış"
+
+#: admin/views/overview.php:3
+msgid ""
+"Finpose lets you track financial actions associated with your WooCommerce "
+"store operation and provides detailed reports on store performance."
+msgstr ""
+"Finpose, WooCommerce mağaza işleminizle ilişkili finansal eylemleri "
+"izlemenizi sağlar ve mağaza performansı hakkında ayrıntılı raporlar sağlar."
+
+#: admin/views/overview.php:9
+msgid "Have you found a bug? Please "
+msgstr "Böcek buldunuz mu? Lütfen "
+
+#: admin/views/overview.php:10
+msgid "let us know"
+msgstr "bize bildirin"
+
+#: admin/views/overview.php:11
+msgid "We will solve the issue as soon as possible."
+msgstr "Sorunu en kısa sürede çözeceğiz."
+
+#: admin/views/overview.php:20
+msgid "For detailed documentation please check project "
+msgstr "Ayrıntılı belgeler için lütfen projeyi kontrol edin "
+
+#: admin/views/overview.php:21
+msgid "website"
+msgstr "Web sitesi"
+
+#: admin/views/overview.php:30
+msgid ""
+"You may record all costs associated with your store operation over costs "
+"page. You can also access costs for previous months or filter them by cost "
+"category to discover spendings for each cost category."
+msgstr ""
+"Mağaza işleminizle ilişkili tüm maliyetleri maliyetler sayfasında "
+"kaydedebilirsiniz. Ayrıca, önceki ayların maliyetlerine erişebilir veya her "
+"maliyet kategorisi için harcamaları keşfetmek için bunları maliyet "
+"kategorisine göre filtreleyebilirsiniz."
+
+#: admin/views/overview.php:37 admin/views/overview.php:79
+msgid ""
+"Hiring a developer, using a 3rd party tool or a plugin you bought for your "
+"store... Your spendings to improve store operation can be recorded and later "
+"accessed over Expenses page."
+msgstr ""
+"Bir geliştiriciyi işe almak, üçüncü taraf bir araç veya mağazanız için satın "
+"aldığınız bir eklenti kullanmak... Mağaza operasyonunu iyileştirmek için "
+"harcamalarınız, Giderler sayfasından kaydedilebilir ve daha sonra "
+"erişilebilir."
+
+#: admin/views/overview.php:44
+msgid ""
+"You can track all spendings that is a result from your marketing efforts "
+"over Acquisition page. It includes different types of advertising, as well "
+"as alternative methods such as money paid to affiliates."
+msgstr ""
+"Satın Alma sayfası üzerinden pazarlama çabalarınızdan kaynaklanan tüm "
+"harcamaları izleyebilirsiniz. Farklı reklam türlerinin yanı sıra iştiraklere "
+"ödenen para gibi alternatif yöntemleri de içerir."
+
+#: admin/views/overview.php:50
+msgid "Taxes"
+msgstr "Vergiler"
+
+#: admin/views/overview.php:51
+msgid ""
+"Taxes are consist of taxes from payments you received (Tax Payable) or taxes "
+"from spendings you made (Tax Receivable). For all completed orders of your "
+"store Tax Payable is automatically retrieved by Finpose and combined in Tax "
+"Report."
+msgstr ""
+"Vergiler, aldığınız ödemelerden alınan vergilerden (Vergi Mükellefi) veya "
+"yaptığınız harcamalardan alınan vergilerden (Vergi Alacağı) oluşur. "
+"Mağazanızın tamamlanan tüm siparişleri için Vergi Mükellefi, Finpose "
+"tarafından otomatik olarak alınır ve Vergi Raporu'nda birleştirilir."
+
+#: admin/views/overview.php:62
+msgid "Accounts"
+msgstr "Hesaplar"
+
+#: admin/views/overview.php:63
+msgid ""
+"In addition to payment gateways installed for your store, you can add your "
+"bank accounts / credit cards and track your spendings / payments received "
+"for each account. You can also record transfers between accounts defined. "
+"Payments you received over sales, automatically reflected on chosen account "
+"balance."
+msgstr ""
+"Mağazanız için yüklenen ödeme ağ geçitlerine ek olarak, banka hesaplarınızı "
+"/ kredi kartlarınızı ekleyebilir ve her hesap için aldığınız harcamaları / "
+"ödemeleri takip edebilirsiniz. Tanımlanan hesaplar arasındaki transferleri "
+"de kaydedebilirsiniz. Satışlar üzerinden aldığınız ödemeler otomatik olarak "
+"seçilen hesap bakiyeye yansıtılır."
+
+#: admin/views/overview.php:70
+msgid "Time Reports"
+msgstr "Zaman Raporları"
+
+#: admin/views/overview.php:71
+msgid ""
+"Month to month comparison of your store performance is available through "
+"Time Reports. Using Time reports you are able to find out Profit / Loss, "
+"Average Order Value or Number of Items Sold, in addition to spendings / "
+"payments received totals for each month."
+msgstr ""
+"Mağaza performansınızın aydan aya karşılaştırması Zaman Raporları "
+"aracılığıyla kullanılabilir. Zaman raporlarını kullanarak, her ay için "
+"alınan harcamalara / ödemelere ek olarak Kar / Zarar, Ortalama Sipariş "
+"Değeri veya Satılan Ürün Sayısı'nı öğrenebilirsiniz."
+
+#: admin/views/overview.php:78
+msgid "Product Reports"
+msgstr "Ürün Raporları"
+
+#: admin/views/spendings.php:10
+msgid "Spendings"
+msgstr "Harcamalar"
+
+#: admin/views/spendings.php:186
+msgid "Delete Category"
+msgstr "Kategori sil"
+
+#: admin/views/spendings.php:199
+msgid "Add New Spending"
+msgstr "Yeni harcama"
+
+#: admin/views/taxes.php:93
+msgid "Payment ID"
+msgstr "Ödeme ID"
+
+#: admin/views/update.php:13
+msgid "Start Update"
+msgstr "Güncellemeye başla"
+
+#: classes/accounts.class.php:72 classes/inventory.class.php:132
+#: classes/orders.class.php:70 classes/reporting.class.php:70
+#: classes/spendings.class.php:127 classes/taxes.class.php:72
+msgid "Year provided is invalid"
+msgstr "Girilen yıl hatalı"
+
+#: classes/accounts.class.php:78 classes/inventory.class.php:138
+#: classes/orders.class.php:76 classes/reporting.class.php:76
+#: classes/spendings.class.php:133 classes/taxes.class.php:78
+msgid "Month provided is invalid"
+msgstr "Girilen ay hatalı"
+
+#: classes/accounts.class.php:84 classes/inventory.class.php:108
+#: classes/spendings.class.php:103 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "Girilen para birimi hatalı"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "Hesap adı 4-32 karakter uzunluğunda olmalı"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "Hesap adı 32 karakterden az olmalı"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "Hatalı durum"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "Hatalı hesap girildi"
+
+#: classes/accounts.class.php:114 classes/inventory.class.php:126
+#: classes/spendings.class.php:121 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "Tarih formatı hatalı"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "Notlar 256 karakterden uzun olamaz"
+
+#: classes/inventory.class.php:84 classes/spendings.class.php:85
+msgid "Invalid Type"
+msgstr "Hatalı tür"
+
+#: classes/inventory.class.php:90 classes/spendings.class.php:91
+msgid "Invalid Paid With Information"
+msgstr "Hatalı ödeme aracı"
+
+#: classes/inventory.class.php:96 classes/spendings.class.php:97
+msgid "Invalid items"
+msgstr "Hatalı ürünler"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "Hatalı sayfa"
+
+#: classes/inventory.class.php:114 classes/spendings.class.php:109
+msgid "Name can not be longer than 128 characters"
+msgstr "İsim bilgisi 128 karakterden kısa olmalı"
+
+#: classes/inventory.class.php:120 classes/spendings.class.php:115
+msgid "Notes can not be longer than 512 characters"
+msgstr "Not bilgisi 512 karakterden kısa olmalı"
+
+#: classes/spendings.class.php:287
+msgid "Removed spending from records successfully."
+msgstr "Harcama başarıyla kayıtlardan kaldırıldı"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "Ödeme ID 64 karakterden kısa olmalı"
+
+#: finpose.php:63
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "%s için WooCommerce 3.0 ve üzeri gerekli"

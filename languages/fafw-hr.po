@@ -1,0 +1,957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "%s zahtijeva da se WooCommerce 3.0 ili više instalira i aktivira!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "Račun"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "Račun s"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "Naziv računa"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "Naziv računa mora biti između 4-32 znakova"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "Broj broj računa ne može biti dulji od 32 znaka"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "Račun do"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "Vrsta računa"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"Računovodstvo za WooCommerce. Pratite svoj inventar, potrošnju, poreze i "
+"račune za vremenske okvire koje možete odabrati."
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "Račune"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "Stjecanje"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "Akcije"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "Dodavanje stavki inventara"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "Dodavanje novog računa"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "Dodavanje novog računa"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "Dodavanje nove kategorije"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "Dodavanje nove potrošnje"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "Dodavanje plaćenog poreza"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "Dodano pomoću modula inventara"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "Uspješno dodana nova kategorija"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "Uspješno dodana nova potrošnja"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "Uspješno dodane nove jedinice"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "Sve"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "Svi računi"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "Sve stavke"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"Alternativno možete smanjiti razinu dionica WooCommerce posjetom stranici "
+"proizvoda"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "Iznos"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "Travnja"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "Priloži datoteku potrošnji"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "Kolovoz"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "Prosječno vrijeme prodaje"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "Avg. Vrijednost narudžbe"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "Avg. Vrijeme za red"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "Avg. Jedinični trošak"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "Ravnotežu"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "Bankovni račun"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "Bestseleri"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "Otkazana"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "Kategorija"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "Odaberite račun"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "Odaberite datoteku"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "Cogs"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "Završio"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "Trošak"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "Trošak prodane robe"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "Trošak jedne jedinice"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "Zemlji"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "Kreditna kartica"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "Valute"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "Kupca"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "Nadzorne ploče"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "Datum"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "Dodan datum"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "Datum stvaranja"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "Predviđeni format datuma je nevažeći"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "Datum plaćen"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "Datum plaćen"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "Datum prodanog"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "Prijenos datuma"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "Dani"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "Dani"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "Dani na zalihama"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "Prosinca"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "Brisanje računa"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "Brisanje kategorije"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "Uređivanje računa"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "Uređivanje kategorije"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "Uređivanje potrošnje"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "Kraj"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "Est. Datum istrčanja"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "usklik. Troškovi inventara"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "Postojeći pristupnici"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "Trošak"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "Izvoz"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "Nije uspjela"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "Veljače"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "Filtar"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Filtar i izvoz"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "Finpose (finpose)"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "Finpose razina zaliha"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "za proizvod"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "Ići"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "Veće od"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "Bruto dobit"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr ""
+"Pomozite nam da poboljšamo Finpose dijeljenjem vaših povratnih informacija"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "Uvoz"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "Uvoz stavki inventara"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "incl. Porez i dostava"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "Prihoda"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "Uvid"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "Nevažeći račun"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "Nevažeći predmeti"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "Nevažeći format novca"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "Nevažeća stranica"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "Nevažeći plaćeni s informacijama"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "Nevažeći status"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "Nevažeća vrsta"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "Zaliha"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "Troškovi zaliha"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "Datum fakture"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "Je li prodano?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "Stavke"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "Prodani artikli"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "Prodani artikli"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "Siječnja"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "Kod časopisa"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "Srpnja"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "Lipanj"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "Posljednje ažuriranje"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "Niže od"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "Mar"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "Svibanj"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "Metoda"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "Predviđeni mjesec je nevažeći"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "Ime"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "Ime ne može biti duže od 128 znakova"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "NETO DOBIT"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "Neto dobit"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "NETO DOBIT PRIJE POREZA"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "Novi"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "Ne"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "Bilješke"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "Bilješke ne mogu biti dulje od 256 znakova"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "Bilješke ne mogu biti dulje od 512 znakova"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "Studeni"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "Broj stavki"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "Broj jedinica"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "Listopada"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "Na čekanju"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "Neobavezno"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "Naloga"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "Raščlambe narudžbi"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "Naloga"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "Drugih"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "Nema zaliha"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "Stranica"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "Plaćeni"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "Plaćeno s"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "Plaća"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "Plaćanja"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "Pristupnik za plaćanje"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "Pristupnik za plaćanje"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "ID plaćanja"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "ID plaćanja ne može biti dulji od 64 znaka"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "Načini plaćanja"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "Plaćanje na čekanju"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "Cijena"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "Obradu"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "Naziv proizvoda"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "Dobit / gubitak"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "Izvješće o dobiti / gubitku"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "Profitna marža"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "Dobit po danu"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "Potraživanja"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "Vraćen"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "Uspješno je uklonjena potrošnja iz evidencije."
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "Uspješno uklonjeno"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "Izvješća"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "Potrebno"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "Vratiti"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "Prihoda"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "Prodajna cijena"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "Prodaje"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "Spremiti"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "Uštedjeti troškove u potrošnji?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "Rujan"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "Dostava"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "Porez na dostavu"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "Sku"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "Prodani artikli"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "Izvor"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "POTROŠNJA"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "Potrošnja"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "Potrošnja prema načinu plaćanja"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "Potrošnja prema vrsti"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "Potrošnja po narudžbi"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "Početak"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "Datum početka trebao bi biti prije datuma završetka"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "Status"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "Razina zaliha"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "Vrijednost dionice"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "Podzbroj"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "Uspjeh"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "Porez"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "Potraživanja od poreza"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "Porezi"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "Porezi"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "Porezi koji se plaćaju"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "Porezi potraživanja"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "Ova operacija nadjačat će sve postojeće privitke za tu potrošnju."
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "Ova operacija će postaviti WooCommerce razinu dionica na određeni broj"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "Najbolje zemlje"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "Najbolje kategorije potrošnje"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "Ukupno"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "Ukupan broj stavki"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "Ukupni prihodi"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "Ukupni prihodi u odnosu na neto dobit"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "Ukupna potrošnja"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "Ukupna vrijednost dionica"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "Ukupno potraživanje od poreza"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "Zbrojeve"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "Transakcije"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "Prijenos između računa"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "Tip"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "Nemogućnost dodavanje novih jedinica"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "Nemogućnost uklanjanja"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "Nemogućnost prijenosa datoteke"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "Jedinični trošak"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "jedinice će se dodati u Finpose"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "Neprodani artikli"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "Uspješno ažurirano"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "Uspješno učitano"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "Čekanje više podataka"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "WooCommerce razina dionica"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "WooCommerce burzovna razina viša je od razine finpose dionica"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "Predviđena godina je nevažeća"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "Da"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "Ne smijete prikazivati ovu stranicu. Obratite se administratoru."

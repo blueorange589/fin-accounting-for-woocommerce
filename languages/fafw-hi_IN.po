@@ -1,0 +1,957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr ""
+"% को स्थापित और सक्रिय होने के लिए वूकामर्स 3.0 या उससे अधिक की आवश्यकता है!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "खाता"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "खाते से"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "खाते का नाम"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "खाते का नाम 4-32 वर्णों के बीच होना चाहिए"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "खाता स्लग 32 वर्णों से अधिक नहीं हो सकता है"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "खाता करने के लिए"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "खाता प्रकार"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"वूकामर्स के लिए लेखांकन। आप चुन सकते हैं समय सीमा के लिए अपनी सूची, खर्च, "
+"करों और खातों को ट्रैक करें।"
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "खातों"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "अधिग्रहण"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "कार्यों"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "इन्वेंट्री आइटम जोड़ें"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "नया खाता जोड़ें"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "नया खाता जोड़ें"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "नई श्रेणी जोड़ें"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "नया खर्च जोड़ें"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "भुगतान किया गया कर जोड़ें"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "इन्वेंट्री मॉड्यूल द्वारा जोड़ा गया"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "नई श्रेणी को सफलतापूर्वक जोड़ा गया"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "जोड़ा नया खर्च सफलतापूर्वक"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "नई इकाइयों को सफलतापूर्वक जोड़ा गया"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "सभी"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "सभी खाते"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "सभी आइटम"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"वैकल्पिक रूप से आप उत्पाद पृष्ठ पर जाकर वूकामर्स स्टॉक स्तर को कम कर सकते हैं"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "कुल धनराशि"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "अप्रैल"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "खर्च करने के लिए फाइल संलग्न करें"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "अगस्‍त"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "बिक्री के लिए औसत समय"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "औसत आदेश मूल्य"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "आदेश के लिए औसत समय"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "औसत यूनिट लागत"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "संतुलन"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "बैंक खाता"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "बेस्टसेलर्स"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "रद्द"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "कोटि"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "खाता चुनें"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "फ़ाइल चुनें"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "सीओजीएस"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "पूरा किया"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "लागत"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "बेचे गए माल की लागत"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "एकल इकाई की लागत"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "भूक्षेत्र"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "क्रेडिट कार्ड"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "ख़रीदार"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "दिनांक"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "तिथि जोड़ा गया"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "तिथि बनाई गई"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "प्रदान की गई तिथि प्रारूप अमान्य है"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "भुगतान की गई तिथि"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "भुगतान की गई तारीख"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "तिथि बेची गई"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "तिथि स्थानांतरण"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "दिन"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "दिन"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "स्टॉक में दिन"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "दिसंबर"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "खाता हटाएं"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "श्रेणी हटाएं"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "खाते को संपादित करें"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "संपादित श्रेणी"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "खर्च संपादित करें"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "अंत"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "एस्ट रनआउट तिथि"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "एक्ससीएल इन्वेंट्री लागत"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "मौजूदा गेटवे"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "व्यय"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "निर्यातित माल"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "विफल"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "फ़रवरी"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "फ़िल्टर"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "फ़िल्टर एंड एक्सपोर्ट"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "फिनपोज"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "फिनपोज स्टॉक स्तर"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "उत्पाद के लिए"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "कोशिश"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "अधिक से अधिक"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "सकल लाभ"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "अपनी प्रतिक्रिया साझा करके हमें फिनपोज में सुधार करने में मदद करें"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "आयात"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "आयात इन्वेंट्री आइटम"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "incl. कर और शिपिंग"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "आमदनी"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "अंतर्दृष्टि"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "अमान्य खाता प्रदान किया गया"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "अमान्य आइटम"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "अमान्य धन प्रारूप"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "अमान्य पेज"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "जानकारी के साथ अमान्य भुगतान"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "अमान्य स्थिति"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "अमान्य प्रकार"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "विस्‍तृत सूची"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "इन्वेंट्री लागत"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "चालान की तारीख"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "बेचा जाता है?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "आइटम"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "बेची गई वस्तुएं"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "बेची गई वस्तुएं"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "जनवरी"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "जर्नल कोड"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "जुलाई"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "जून"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "अंतिम अपडेट"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "से कम"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "मार्च"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "मई"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "विधि"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "प्रदान किया गया महीना अमान्य है"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "नाम"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "नाम 128 वर्णों से अधिक समय तक नहीं हो सकता"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "शुद्ध लाभ"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "शुद्ध लाभ"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "करों से पहले शुद्ध लाभ"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "नया"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "नहीं"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "नोट्स"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "नोट्स 256 वर्णों से अधिक नहीं हो सकते"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "नोट्स 512 वर्णों से अधिक नहीं हो सकते"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "नवंबर"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "मदों की संख्या"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "इकाइयों की संख्या"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "अक्‍तूबर"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "होल्ड पर"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "वैकल्पिक"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "आदेश"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "आदेश टूटने"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "आदेश"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "अन्य"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "स्टॉक से बाहर"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "भुगतान किया"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "के साथ भुगतान किया"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "देय"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "भुगतान"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "पेमेंट गेटवे"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "भुगतान गेटवे"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "भुगतान आईडी"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "भुगतान आईडी 64 वर्णों से अधिक समय नहीं हो सकता है"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "भुगतान के तरीके"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "लंबित भुगतान"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "मूल्य"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "प्रसंस्करण"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "उत्पाद का नाम"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "लाभ/हानि"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "लाभ/हानि रिपोर्ट"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "लाभ-सीमा"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "प्रति दिन लाभ"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "प्राप्य"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "वापस"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "रिकॉर्ड से खर्च सफलतापूर्वक हटा दिया।"
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "सफलतापूर्वक हटाया गया"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "रिपोर्ट"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "आवश्यक"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "पुनर्स्थापित करना"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "राजस्‍व"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "बिक्री मूल्य"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "बिक्री"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "सहेजें"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "खर्च में लागत बचाएं?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "सितम्बर"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "नौवहन"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "शिपिंग टैक्स"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "स्कू"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "बेची गई वस्तुएं"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "मूल"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "खर्च"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "खर्च"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "भुगतान विधि द्वारा खर्च"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "प्रकार के अनुसार खर्च"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "आदेश के अनुसार खर्च"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "चौंक"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "प्रारंभ तिथि अंतिम तिथि से पहले होनी चाहिए"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "स्थिति"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "स्टॉक स्तर"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "स्टॉक वैल्यू"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "उपयोग"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "सफलता"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "टैक्‍स"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "कर प्राप्य"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "करों"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "करों"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "देय कर"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "प्राप्य कर"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "यह ऑपरेशन इस खर्च के लिए किसी भी मौजूदा अटैचमेंट को ओवरराइड करेगा।"
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "यह ऑपरेशन वूकॉमर्स स्टॉक स्तर को दिए गए नंबर पर सेट करेगा"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "शीर्ष देश"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "शीर्ष खर्च श्रेणियां"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "कुल"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "मदों की कुल संख्या"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "कुल राजस्व"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "कुल राजस्व बनाम शुद्ध लाभ"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "कुल खर्च"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "कुल स्टॉक वैल्यू"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "कुल कर प्राप्त"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "योग"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "लेनदेन"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "खातों के बीच स्थानांतरण"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "प्रकार"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "नई इकाइयों को जोड़ने में असमर्थ"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "हटाने में असमर्थ"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "फाइल अपलोड करने में असमर्थ"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "यूनिट लागत"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "इकाइयों को फिनपोज में जोड़ा जाएगा"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "बिना बिके आइटम"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "सफलतापूर्वक अपडेट किया गया"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "सफलतापूर्वक अपलोड किया गया"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "अधिक डेटा की प्रतीक्षा करना"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "वूकामर्स स्टॉक स्तर"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "वूकॉमर्स स्टॉक का स्तर फिनपोज स्टॉक स्तर से अधिक है"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "प्रदान किया गया वर्ष अमान्य है"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "हाँ"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr ""
+"आपको इस पृष्ठ को प्रदर्शित करने की अनुमति नहीं है। कृपया प्रशासक से संपर्क "
+"करें।"

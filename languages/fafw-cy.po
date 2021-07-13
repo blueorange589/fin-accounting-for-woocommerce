@@ -1,0 +1,958 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: Welsh\n"
+"Language: cy\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : "
+"n==6 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "Mae %s yn gofyn i WooCommerce 3.0 neu fwy gael ei osod a'i actifadu!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "Cyfrif"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "Cyfrif O"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "Enw'r Cyfrif"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "Rhaid i enw'r cyfrif fod rhwng 4-32 nod"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "Ni all slwtsh cyfrif fod yn hwy na 32 nod"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "Cyfrif I"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "Math o Gyfrif"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"Cyfrifo ar gyfer WooCommerce. Traciwch eich rhestr, gwariant, trethi a "
+"chyfrifon ar gyfer amserlenni y gallwch eu dewis."
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "Cyfrifon"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "Caffael"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "Camau"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "Ychwanegu Eitemau Stocrestr"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "Ychwanegu Cyfrif Newydd"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "Ychwanegu cyfrif newydd"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "Ychwanegu Categori Newydd"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "Ychwanegu Gwariant Newydd"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "Ychwanegu Treth a Dalwyd"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "Ychwanegwyd gan fodiwl y rhestr"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "Categori newydd ychwanegol yn llwyddiannus"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "Gwariant newydd ychwanegol yn llwyddiannus"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "Ychwanegu unedau newydd yn llwyddiannus"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "Holl"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "Pob Cyfrif"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "Pob Eitem"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"Fel arall, gallwch leihau lefel stoc WooCommerce drwy ymweld â thudalen "
+"cynnyrch"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "Swm"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "Apr"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "Atodi Ffeil i Wariant"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "Awst"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "Amser Gwerthu Cyfartalog"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "Avg. Gwerth Gorchymyn"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "Avg. Amser i Archebu"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "Avg. Cost Uned"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "Cydbwysedd"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "Cyfrif banc"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "Bestsellers"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "Canslo"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "Categori"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "Dewis Cyfrif"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "Dewis ffeil"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "COGS"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "Cwblhau"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "Cost"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "Cost Nwyddau a Werthir"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "Cost yr Uned Sengl"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "Wlad"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "Cerdyn credyd"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "Arian"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "Cwsmeriaid"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "Dangosfwrdd"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "Dyddiad"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "Dyddiad Ychwanegu"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "Dyddiad creu"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "Mae'r fformat dyddiad a ddarperir yn annilys"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "Dyddiad Talu"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "Dyddiad talu"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "Dyddiad Gwerthu"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "Dyddiad Trosglwyddo"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "Dyddiau"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "Dyddiau"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "Diwrnodau mewn Stoc"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "Rhagfyr"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "Dileu Cyfrif"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "Dileu Categori"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "Golygu Cyfrif"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "Golygu Categori"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "Golygu Gwariant"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "Diwedd"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "Est. Dyddiad Rhedeg"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "esgusodion. Costau Stocrestr"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "Pyrth Presennol"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "Draul"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "Allforio"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "Methu"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "Chwefror"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "Hidlydd"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Hidlo ac Allgludo"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "Finpose"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "Lefel stoc finpose"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "ar gyfer y cynnyrch"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "Fynd"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "Yn fwy na"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "Elw Gros"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "Helpwch ni i wella Finpose drwy rannu eich adborth"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "Mewnforio"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "Mewngludo Eitemau Stocrestr"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "modl. Treth a Llongau"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "Incwm"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "Cipolygon"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "Cyfrif annilys a ddarparwyd"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "Eitemau annilys"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "Fformat arian annilys"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "Tudalen annilys"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "Wedi'i Dalu'n Annilys Gyda Gwybodaeth"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "Statws annilys"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "Math Annilys"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "Rhestr"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "Costau Stocrestr"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "Dyddiad anfonebu"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "Yn cael ei Werthu?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "Eitemau"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "Eitemau a Werthwyd"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "Eitemau a werthwyd"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "Jan"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "Cod y Cyfnodolyn"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "Cymorth Jul"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "Mehefin"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "Diweddariad Diwethaf"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "Yn is na"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "Mar"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "Mai"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "Dull"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "Mae'r mis a ddarperir yn annilys"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "Enw"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "Ni all yr enw fod yn hirach na 128 nod"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "ELW NET"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "Elw Net"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "ELW NET CYN TRETHI"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "Newydd"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "Na"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "Nodiadau"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "Ni all nodiadau fod yn hwy na 256 nod"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "Ni all nodiadau fod yn hwy na 512 nod"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "Tachwedd"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "Nifer yr Eitemau"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "Nifer yr Unedau"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "Hydref"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "Wedi'i ohirio"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "Dewisol"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "Gorchymyn"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "Dadansoddiadau o'r Gorchymyn"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "Gorchmynion"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "Eraill"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "Y tu allan i'r stoc"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "Tudalen"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "Talu"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "Wedi'i dalu Gyda"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "Daladwy"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "Taliad"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "Porth Talu"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "Porth talu"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "ID talu"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "Ni all ID talu fod yn hwy na 64 nod"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "Dulliau Talu"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "Aros am Daliad"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "Pris"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "Prosesu"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "Enw'r Cynnyrch"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "Elw / Colled"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "Adroddiad Elw / Colled"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "Elw Elw"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "Elw y Dydd"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "Derbyniadwy"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "Ad - dalu"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "Tynnu gwariant o gofnodion yn llwyddiannus."
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "Wedi'i dynnu'n llwyddiannus"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "Adroddiadau"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "Ofynnol"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "Adfer"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "Refeniw"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "Pris Gwerthu"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "Gwerthiannau"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "Arbed"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "Arbed cost mewn gwariant?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "Csc"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "Llongau"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "Treth Llongau"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "Cymorth SKU"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "Eitemau a Werthwyd"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "Ffynhonnell"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "GWARIANT"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "Gwariant"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "Gwariant yn ôl Dull Talu"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "Gwariant yn ôl Math"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "Gwariannau fesul Gorchymyn"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "Dechrau"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "Dylai'r dyddiad dechrau fod cyn y dyddiad gorffen"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "Statws"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "Lefel Stoc"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "Gwerth Stoc"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "Cynnil"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "Llwyddiant"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "Dreth"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "Treth derbyniadwy"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "Trethi"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "Trethi"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "Trethi sy'n Daladwy"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "Trethi Derbyniadwy"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr ""
+"Bydd y gwaith hwn yn diystyru unrhyw atodiadau presennol ar gyfer y gwariant "
+"hwn."
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "Bydd y dasg hon yn gosod lefel stoc WooCommerce i rif penodol"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "Gwledydd Gorau"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "Categorïau Gwariant Gorau"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "Cyfanswm"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "Cyfanswm nifer yr Eitemau"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "Cyfanswm Refeniw"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "Cyfanswm Refeniw vs. Elw Net"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "Cyfanswm y Gwariannau"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "Cyfanswm Gwerth y Stoc"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "Cyfanswm y Dreth sy'n Dderbyniadwy"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "Cyfansymiau"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "Trafodion"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "Trosglwyddo rhwng Cyfrifon"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "Math"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "Methu ychwanegu unedau newydd"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "Methu tynnu"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "Methu llwytho ffeil i fyny"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "Cost Uned"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "unedau'n cael eu hychwanegu yn Finpose"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "Eitemau Heb eu Sold"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "Diweddarwyd yn llwyddiannus"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "Wedi llwyddo i lwytho i fyny'n llwyddiannus"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "Aros mwy o ddata"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "Lefel stoc WooCommerce"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "Mae lefel stoc WooCommerce yn uwch na lefel stoc Finpose"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "Mae'r flwyddyn a ddarperir yn annilys"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "Yess"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "Ni chaniateir i chi ddangos y dudalen hon. Holwch y gweinyddwr."

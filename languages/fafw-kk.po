@@ -1,0 +1,956 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: Kazakh\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "% s WooCommerce 3.0 немесе одан да көп орнатуды және белсендіреді!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "Тіркелгі"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "Тіркелгіден"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "Тіркелгінің атауы"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "Тіркелгі атауы 4-32 символарасында болуы керек"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "Тіркелгінің босауы 32 таңбадан артық болмауы тиіс"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "Тіркелгіге"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "Тіркелгі түрі"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"WooCommerce-тің бухгалтерлік есебі. Таңдауға болатын уақыт аралығын "
+"тізімдеуді, шығыстарды, салықтар мен тіркелгілерді бақылаңыз."
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "Тіркелгілер"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "Сатып алу"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "Әрекеттер"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "Қорлар элементтерін қосу"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "Жаңа тіркелгі қосу"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "Жаңа тіркелгі қосу"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "Жаңа санат қосу"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "Жаңа шығыстарды қосу"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "Төленген салықты қосу"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "Инвентарлық модуль қосылған"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "Жаңа санат сәтті қосылды"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "Жаңа шығындар сәтті қосылды"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "Жаңа агрегаттар сәтті қосылды"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "Барлығы"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "Барлық тіркелгілер"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "Барлық элементтер"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"Балама ретінде өнім бетіне кіру арқылы WooCommerce қор деңгейін төмендетуге "
+"болады"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "Сома"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "Апр"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "Файлды жұмсауға тіркеу"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "Ауг"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "Сатуға арналған орташа уақыт"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "Avg. реттік мән"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "Аванс."
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "Авг. Бірлік құны"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "Баланс"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "Банк шоты"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "Бестселлерлер"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "Бас тартылды"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "Санат"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "Тіркелгіні таңдау"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "Файлды таңдау"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "КОГС"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "Аяқталған"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "Құны"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "Сатылған тауарлардың өзіндік құны"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "Бірыңғай бірліктің құны"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "Ел"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "Несиелік карта"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "Валюта"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "Тұтынушы"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "Бақылау тақтасы"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "Күні"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "Қосылған күн"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "Жасалған күні"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "Берілген күн пішімі дұрыс емес"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "Төленген күн"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "Төленген күн"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "Сатылған күні"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "Берілген күн"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "Күндер"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "күндер"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "Қордағы күндер"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "Тарату декларациясын тапсыру мерзіміне"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "Тіркелгіні өшіру"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "Санатты өшіру"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "Тіркелгіні өңдеу"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "Өңдеу санаты"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "Шығыстарды өңдеу"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "Аяқтау"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "Эс. Runout Күні"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "| | | | | | | | | | | | | | | | |"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "Бұрыннан бар шлюздер"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "Шығыс"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "Экспорттау"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "Жаңылыс"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "Ақпан"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "Сүзгі"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Сүзгі & Экспорттау"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "Финпоп"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "Акциялардың қаржы деңгейі"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "бұйым үшін"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "Өту"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "Үлкенірек"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "Жалпы пайда"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr ""
+"Пікіріңізді ортақ пайдалану арқылы Бізге Fin pose- ны жақсартуға көмектесу"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "Импорттау"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "Тауарлық-материалдық қорлардың элементтерін импорттау"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "incl. Tax & Shipping"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "КІРІСТЕР"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "Мәліметтер"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "Дұрыс емес тіркелгі"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "Жарамсыз элементтер"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "Жарамсыз ақша пішімі"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "Жарамсыз бет"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "Ақпараты бар жарамсыз ақылы"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "Жарамсыз күй"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "Жарамсыз түрі"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "Түгендеу"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "Тауарлық-материалдық қорларды түгендеу бойынш"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "Есеп-шот күні"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "Сатылды ма?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "Элементтер"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "Сатылған элементтер"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "Сатылған тауарлар"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "Ян"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "Журнал коды"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "Жул"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "Джун"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "Соңғы жаңарту"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "Төмен"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "Мар"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "Мамыр"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "Әдіс"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "Ұсынылған ай жарамсыз"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "Атауы"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "Атау 128 таңбадан артық болмауы тиіс"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "ТАЗА ПАЙДА"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "Таза пайда"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "САЛЫҚ САЛЫНАТЫН САЛЫҚТАРҒА ДЕЙІНГІ ТАЗА ПАЙДА"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "Жаңа"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "Жоқ"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "Жазбалар"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "Ескертпелер 256 таңбадан артық болмауы тиіс"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "Жазбалар 512 таңбадан артық болмауы тиіс"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "Нов"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "Элементтер саны"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "Бірлік саны"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "Окт"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "Ұстау туралы"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "Қосымша"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "Тапсырыс"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "Ретін бұзу"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "Тапсырыстар"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "Басқа"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "Қордан тыс"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "Бет"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "Ақылы"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "Төленді"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "Кредиторлық берешек"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "Төлем"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "Төлем шлюзі"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "Төлем шлюзі"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "Төлем сәйкестігі"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "Төлем сәйкестендіргіс 64 белгіден артық болмауы тиіс"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "Төлем әдістері"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "Күтудегі төлем"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "Баға"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "Өңдеу"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "Өнімнің атауы"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "Пайда/ Шығын"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "Пайда/ шығындар туралы есеп"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "Пайда ның маржасы"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "Бiр күнгi пайда"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "Дебиторлық берешек"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "Қайтарылды"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "Жазбалардан шығындарды ойдағыдай жою."
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "Сәтті жойылды"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "Есептер"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "Міндетті@ info: info:"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "Қалпына келтіру"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "Кірістер"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "Сату бағасы"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "Сату"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "Сақтау"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "Шығындар үнемделеді ме?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "Сеп"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "Жөнелту"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "Тауарға ілеспе салық"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "ШКУ"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "Сатылған тауарлар"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "Қайнар көз"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "ШЫҒЫСТАР"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "Шығыстар"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "Төлемдер әдісі бойынша шығыстар"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "Түрлері бойынша шығыстар"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "Бір ретке арналған шығыстар"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "Бастау"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "Басталу күні аяқталу күнінен бұрын болуы тиіс"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "Күй"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "Қор деңгейі"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "Қор құны"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "Аралық жиын"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "Сәттілік"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "Салық"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "Салық дебиторлық берешек"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "САЛЫҚТАР"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "Салықтар"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "Төленуге тиiс салықтар"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "Дебиторлық берешек"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "Бұл операция осы шығындар үшін бар тіркемелерді алдын ала анықтайды."
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "Бұл операция WooCommerce қор деңгейін берілген санға орнатады"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "Жоғарғы елдер"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "Жоғарғы шығыс санаттары"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "Барлығы"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "Тауарлардың жалпы саны"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "Кірістердің жиыны"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "Жалпы түсім"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "Шығыстар дың жалпы сомасы"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "Акциялардың жалпы құны"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "Дебиторлық берешек тің жалпы сомасы"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "Қорытындылар"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "Транзакциялар"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "Тіркелгілер арасында аудару"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "Түрі"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "Жаңа бірліктер қосылмады"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "Өшіру болмады"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "Файл кері жүктелмеді"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "Бірлік құны"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "finpose-ға бірліктер қосылады"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "Сатылмаған элементтер"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "Сәтті жаңартылды"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "Кері жүктелгені сәтті"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "Қосымша деректерді күту"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "WooCommerce қор деңгейі"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "WooCommerce қор деңгейі Finpose қор деңгейінен жоғары"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "Ұсынылған жыл жарамсыз"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "Иә"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "Бұл бетті көрсетуге рұқсат етілмейді. Әкімшіге хабарласыңыз."

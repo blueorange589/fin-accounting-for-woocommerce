@@ -1,0 +1,954 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "٪s نیاز به WooCommerce 3.0 یا بیشتر برای نصب & فعال!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "حساب"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "حساب از"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "نام حساب"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "نام حساب باید بین 4-32 کاراکتر باشد"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "حلزون حساب نمی تواند طولانی تر از 32 کاراکتر"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "حساب به"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "نوع حساب"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"حسابداری برای WooCommerce. پیگیری موجودی، هزینه ها، مالیات ها و حساب های خود "
+"را برای بازه های زمانی شما می توانید انتخاب کنید."
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "حساب"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "کسب"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "اقدامات"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "اضافه کردن موارد موجودی"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "افزودن حساب جدید"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "افزودن حساب جدید"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "اضافه کردن رده جدید"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "اضافه کردن هزینه های جدید"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "اضافه کردن مالیات پرداخت شده"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "اضافه شده توسط ماژول موجودی"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "اضافه شده رده جدید با موفقیت"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "اضافه شده هزینه های جدید با موفقیت"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "اضافه شده واحدهای جدید با موفقیت"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "همه"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "همه حساب ها"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "همه موارد"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"متناوبا شما می توانید سطح سهام WooCommerce با بازدید از صفحه محصول کاهش"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "مقدار"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "آوریل"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "ضمیمه فایل به هزینه"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "آگوست"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "متوسط زمان برای فروش"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "ارزش سفارش Avg"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "آوگ. زمان برای سفارش"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "Avg. هزینه واحد"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "تعادل"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "حساب بانکی"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "پرفروش"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "لغو"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "رده"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "انتخاب حساب"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "انتخاب پرونده"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "Cogs"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "تکمیل"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "هزینه"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "هزینه کالاهای فروخته شده"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "هزینه واحد واحد"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "کشور"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "کارت اعتباری"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "ارز"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "مشتری"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "تاریخ اضافه شده"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "تاریخ ایجاد شده"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "فرمت تاریخ ارائه شده نامعتبر است"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "تاریخ پرداخت شده"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "تاریخ پرداخت شده"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "تاریخ فروخته شده"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "انتقال تاریخ"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "روز‌ها"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "روز‌ها"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "روز در سهام"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "دسامبر"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "حذف حساب"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "حذف رده"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "ویرایش حساب"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "ویرایش رده"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "ویرایش هزینه ها"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "پایان"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "است. تاریخ اجرا"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "excl. هزینه های موجودی"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "دروازه های موجود"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "هزینه"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "صادرات"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "ناموفق بود"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "فوریه"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "فیلتر"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Filter & Export"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "فینپوز"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "سطح سهام فینپوز"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "برای محصول"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "رفتن"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "بزرگتر از"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "سود ناخالص"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "کمک به ما برای بهبود Finpose با به اشتراک گذاری بازخورد خود را"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "واردات"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "واردات اقلام موجودی"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "incl. Tax & Shipping"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "درآمد"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "بینش"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "حساب نامعتبر ارائه شده"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "موارد نامعتبر"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "قالب پول نامعتبر"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "صفحه نامعتبر"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "نامعتبر پرداخت شده با اطلاعات"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "وضعیت نامعتبر"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "نوع نامعتبر"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "موجودی"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "هزینه های موجودی"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "تاریخ فاکتور"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "فروخته شده؟"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "موارد"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "اقلام فروخته شده"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "اقلام فروخته شده"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "ژانویه"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "کد مجله"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "ژوئیه"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "ژوئن"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "آخرین بروز رسانی"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "پایین تر از"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "مارس"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "مه"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "روش"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "ماه ارائه شده باطل است"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "نام"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "نام نمی تواند طولانی تر از 128 کاراکتر باشد"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "سود خالص"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "سود خالص"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "سود خالص قبل از مالیات"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "جدید"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "نه"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "یادداشت"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "یادداشت ها نمی توانند طولانی تر از ۲۵۶ کاراکتر باشند"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "یادداشت ها نمی توانند طولانی تر از 512 کاراکتر باشند"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "نوامبر"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "تعداد موارد"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "تعداد واحدها"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "اکتبر"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "در انتظار"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "اختیاری"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "سفارش"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "خرابی های سفارش"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "سفارشات"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "دیگر"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "خارج از سهام"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "صفحه"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "پرداخت"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "پرداخت شده با"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "پرداختنی"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "پرداخت"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "دروازه پرداخت"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "دروازه پرداخت"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "شناسه پرداخت"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "شناسه پرداخت نمی تواند بیش از 64 کاراکتر باشد"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "روش های پرداخت"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "در انتظار پرداخت"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "قيمت"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "پردازش"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "نام محصول"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "سود / زیان"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "سود / گزارش زیان"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "حاشیه سود"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "سود در روز"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "دریافتنی"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "مسترد"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "حذف هزینه از سوابق با موفقیت."
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "حذف شده با موفقیت"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "گزارش"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "مورد نیاز"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "بازیابی"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "درآمد"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "قیمت فروش"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "فروش"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "ذخیره"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "صرفه جویی در هزینه در هزینه؟"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "سپتامبر"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "نقل"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "مالیات حمل و نقل"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "Sku"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "اقلام فروخته شده"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "منبع"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "هزینه ها"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "هزینه ها"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "هزینه ها با روش پرداخت"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "هزینه ها بر اساس نوع"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "هزینه ها در هر سفارش"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "شروع"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "تاریخ شروع باید قبل از تاریخ پایان باشد"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "وضعیت"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "سطح سهام"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "ارزش سهام"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "زیرمجموعه"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "موفقیت"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "مالیات"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "مالیات قابل دریافت"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "مالیات"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "مالیات"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "مالیات قابل پرداخت"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "مالیات های قابل دریافت"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "این عملیات هر گونه پیوست موجود برای این هزینه را لغو خواهد کرد."
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "این عملیات خواهد شد WooCommerce سطح سهام به تعداد داده شده مجموعه"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "کشورهای برتر"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "رده های هزینه بالا"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "مجموع"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "تعداد کل موارد"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "درآمد کل"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "درآمد کل در مقابل سود خالص"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "کل هزینه ها"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "ارزش کل سهام"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "کل مالیات قابل دریافت"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "بالغ"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "معاملات"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "انتقال بین حساب ها"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "نوع"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "قادر به اضافه کردن واحدهای جدید نیست"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "قادر به حذف نیست"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "قادر به آپلود فایل نیست"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "هزینه واحد"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "واحدها در فینپوز اضافه خواهند شد"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "اقلام فروخته نشده"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "به روز شده با موفقیت"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "آپلود شده با موفقیت"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "انتظار داده های بیشتر"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "سطح سهام WooCommerce"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "سطح سهام WooCommerce بالاتر از سطح سهام فینپوز است"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "سال ارائه شده بی اعتبار است"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "بله"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "شما مجاز به نمایش این صفحه نمی باشد. لطفا با سرپرست تماس بگیرید."

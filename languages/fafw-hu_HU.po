@@ -1,0 +1,956 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "%s a WooCommerce 3.0 vagy nagyobb telepítést és aktiválást igényel!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "Számla"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "Fiók fel"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "Fiók neve"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "A fióknévnek 4-32 karakter között kell lennie"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "A fiókcsiga nem lehet hosszabb 32 karakternél"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "Fiók"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "Számla típusa"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"A WooCommerce könyvelése. Kövesse nyomon készletét, kiadásait, adóit és "
+"számláit a választott időkeretek között."
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "Számlák"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "Megszerzése"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "Műveletek"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "Készletcikkek hozzáadása"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "Új fiók hozzáadása"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "Új fiók hozzáadása"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "Új kategória hozzáadása"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "Új kiadások hozzáadása"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "Befizetett adó hozzáadása"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "Készletmodullal egészül ki"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "Új kategória sikeresen hozzáadva"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "Új kiadások sikeresen hozzáadva"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "Új egységek sikeresen hozzáadva"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "Minden"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "Minden fiók"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "Minden elem"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"Másik lehetőségként csökkentheti a WooCommerce készletszintjét a termékoldal "
+"felkeresésével"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "Összeg"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "Apr"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "Fájl csatolása a kiadásokhoz"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "Augusztus"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "Átlagos értékesítési idő"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "Rendelési érték"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "Avg. Rendelési idő"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "Avg. Egységköltség"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "Egyensúly"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "Bankszámla"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "Bestseller"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "Törölt"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "Kategória"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "Fiók kiválasztva"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "Fájl kivetve"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "Fogaskerekek"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "Befejezett"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "Költség"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "Az eladott áruk költsége"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "Az egyegységes egység költsége"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "Ország"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "Hitelkártya"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "Pénznem"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "Ügyfél"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "Műszerfal"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "Dátum"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "Hozzáadott dátum"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "Létrehozás dátuma"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "A megadott dátumformátum érvénytelen"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "Kifizetett dátum"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "Kifizetett dátum"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "Eladott dátum"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "Dátum átvitele"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "Napok"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "Napok"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "Raktáron töltött napok"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "December"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "Fiók törlése"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "Kategória törlése"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "Fiók szerkesztése"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "Kategória szerkesztése"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "Kiadások szerkesztése"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "Végén"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "Kifolyás dátuma"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "a készletköltségek kiiktatása"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "Meglévő átjárók"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "Költség"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "Export"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "Nem sikerült"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "Február"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "Szűrő"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Szűrés & Exportálás"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "Finpose között"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "Finpose készletszint"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "a termékhez"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "Megy"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "Nagyobb, mint"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "Bruttó nyereség"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "Segítsen nekünk javítani Finpose megosztásával visszajelzést"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "Importálása"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "Készletcikkek importálása"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "beleértve az adót & szállítást"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "Jövedelem"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "Betekintést"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "Érvénytelen fiók biztosítva"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "Érvénytelen elemek"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "Érvénytelen pénzformátum"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "Érvénytelen oldal"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "Érvénytelen fizetett információkkal"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "Érvénytelen állapot"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "Érvénytelen típus"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "Készlet"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "Készletköltségek"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "Számla dátuma"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "Elkelt?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "Elemek"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "Eladott cikkek"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "Eladott termékek"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "Január"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "Naplókód"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "Július"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "Június"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "Utolsó frissítés"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "Alacsonyabb, mint"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "Mar"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "Május"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "Módszer"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "A megadott hónap érvénytelen"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "név"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "A név nem lehet hosszabb 128 karakternél"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "NETTÓ NYERESÉG"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "Nettó nyereség"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "ADÓZÁS ELŐTTI NETTÓ NYERESÉG"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "Új"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "Nem"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "Megjegyzések"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "A jegyzetek nem lehetnek hosszabbak 256 karakternél"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "A jegyzetek nem lehetnek hosszabbak 512 karakternél"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "November"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "Elemek száma"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "Egységek száma"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "Október"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "Tartásban"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "Választható"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "Rendelés"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "Rendelési bontások"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "Rendelések"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "Más"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "Nincs raktáron"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "Oldalala"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "Fizetett"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "Fizetett"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "Fizetendő"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "Fizetési"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "Fizetési átjáró"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "Fizetési átjáró"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "Fizetési azonosító"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "A fizetési azonosító nem lehet hosszabb 64 karakternél"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "Fizetési módok"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "Függőben lévő fizetés"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "Ár"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "Feldolgozás"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "Termék neve"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "Eredmény / veszteség"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "Eredménykimutatás"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "Haszonkulcs"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "Napi nyereség"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "Követelés"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "Téríteni"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "Sikeresen eltávolította a kiadásokat a rekordokból."
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "Sikeresen eltávolítva"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "Jelentések"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "Szükséges"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "Visszaad"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "Bevétel"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "Eladási ár"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "Értékesítési"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "Menteni"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "Költségmegtakarítás a kiadásokban?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "Szeptember"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "Szállítás"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "Szállítási adó"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "Sku"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "Eladott cikkek"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "Forrás"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "KIADÁSOK"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "Kiadások"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "Költés fizetési mód szerint"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "Kiadások típus szerint"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "Kiadások rendelésenként"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "Elkezd"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "A kezdési dátumnak a befejezési dátum előtt kell lennie."
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "Állapot"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "Készletszint"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "Készletérték"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "Siker"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "Adó"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "Kinnnesztőség"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "Adók"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "Adók"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "Fizetendő adók"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "Követelések"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "Ez a művelet felülírja a kiadásokhoz meglévő mellékleteket."
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "Ez a művelet a WooCommerce készletszintjét megadott számra"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "Legnépszerűbb országok"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "Legnépszerűbb kiadási kategóriák"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "Teljes"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "Cikkek száma összesen"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "Összes bevétel"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "Összes bevétel vs. nettó nyereség"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "Összes kiadás"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "Teljes készletérték"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "Összes kinnnnendő adó"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "Összegek"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "Tranzakciók"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "Átutalás a számlák között"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "Típus"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "Nem lehet új egységeket hozzáadni"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "Nem lehet eltávolítani"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "Nem lehet fájlt feltölteni"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "Egységköltség"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "egységek kerülnek ki a Finpose"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "Eladatlan elemek"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "Sikeres frissítés"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "Sikeres feltöltés"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "További adatok várakozása"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "WooCommerce készletszint"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "A WooCommerce részvényszintje magasabb, mint a Finpose részvényszintje"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "A megadott év érvénytelen"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "igen"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr ""
+"Ezt az oldalt nem jelenítheti meg. Kérjük, forduljon a rendszergazdához."

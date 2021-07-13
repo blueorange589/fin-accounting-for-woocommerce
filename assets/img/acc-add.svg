@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accounts" transform="translate(-285.000000, -592.000000)">
+            <g id="Group-2" transform="translate(290.000000, 597.000000)">
+                <g id="Group" transform="translate(16.000000, 17.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M50.375,19.125 L32.5,19.125 L32.5,1.59375 C32.5,0.713601563 31.7724062,0 30.875,0 L21.125,0 C20.2275937,0 19.5,0.713601563 19.5,1.59375 L19.5,19.125 L1.625,19.125 C0.72759375,19.125 0,19.8386016 0,20.71875 L0,30.28125 C0,31.1613984 0.72759375,31.875 1.625,31.875 L19.5,31.875 L19.5,49.40625 C19.5,50.2863984 20.2275937,51 21.125,51 L30.875,51 C31.7724062,51 32.5,50.2863984 32.5,49.40625 L32.5,31.875 L50.375,31.875 C51.2724062,31.875 52,31.1613984 52,30.28125 L52,20.71875 C52,19.8386016 51.2724062,19.125 50.375,19.125 Z" id="Path"></path>
+                </g>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="10" cx="42" cy="42" r="42"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

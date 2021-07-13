@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr ""
+"%s требует, чтобы WooCommerce 3.0 или больше был установлен и активирован!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "счет"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "Учетная запись от"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "Имя учетной записи"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "Имя учетной записи должно быть между 4-32 символами"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "Учетная запись пули не может быть больше, чем 32 символов"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "Учетная запись для"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "Тип учетной записи"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr ""
+"Бухгалтерия для WooCommerce. Отслеживайте свои запасы, расходы, налоги и "
+"отчеты о сроках, которые вы можете выбрать."
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "Счета"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "приобретение"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "Добавление элементов инвентаря"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "Добавление новой учетной записи"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "Добавление новой учетной записи"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "Добавить новую категорию"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "Добавить новые расходы"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "Добавить уплаченный налог"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "Добавлено модулем инвентаризации"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "Добавлена новая категория успешно"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "Успешно добавлены новые расходы"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "Успешно добавлены новые агрегаты"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "все"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "Все учетные записи"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "Все элементы"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr ""
+"Кроме того, вы можете уменьшить уровень акций WooCommerce, посетив страницу "
+"продукта"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "количество"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "Апр"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "Прикрепите файл к расходам"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "Авг"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "Среднее время продажи"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "Avg. Стоимость заказа"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "Avg. Время для заказа"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "Avg. Стоимость единицы"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "равновесие"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "банковский счёт"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "Бестселлеры"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "Отменен"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "категория"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "Выберите учетную запись"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "Выберите файл"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "Винтики"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "завершённый"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "стоить"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "Стоимость проданных товаров"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "Стоимость одной единицы"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "страна"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "кредитная карта"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "валюта"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "клиент"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "щиток"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "дата"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "Добавлено"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "Дата создания"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "Предоставленный формат даты недействителен"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "Дата оплаты"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "Дата оплаты"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "Дата продажи"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "Передача даты"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "Дни недели"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "Дни недели"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "Дни на складе"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "Декабря"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "Удалить учетную запись"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "Категория удаления"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "Редактировать учетную запись"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "Категория редактирования"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "Редактировать расходы"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "конец"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "Est. Дата выхода"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "excl. Расходы на инвентаризацию"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "Существующие шлюзы"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "расход"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "экспорт"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "неудавшийся"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "Февраля"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "фильтр"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "Фильтр и экспорт"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "Финпос"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "Уровень запасов Finpose"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "для продукта"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "идти"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "Больше"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "валовой доход"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "Помогите нам улучшить Finpose, поделившись своими отзывами"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "импорт"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "Импортные товарно-материальные запасы"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "вкл. Налог и Судоходство"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "доход"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "Идеи"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "Предоставлена недействительная учетная запись"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "Недействительные элементы"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "Недействительный формат денег"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "Недействительная страница"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "Недействительный платный с информацией"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "Недействительный статус"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "Недействительный тип"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "инвентарь"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "Затраты на инвентаризацию"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "Дата выставления счета-фактуры"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "Продается?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "Элементы"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "Проданные товары"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "Проданные товары"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "Января"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "Код журнала"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "Июл"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "Июн"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "Последнее обновление"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "Ниже"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "портить"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "Май"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "метод"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "Предоставленный месяц недействителен"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "имя"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "Имя не может быть длиннее 128 символов"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "ЧИСТАЯ ПРИБЫЛЬ"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "Чистая прибыль"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "ЧИСТАЯ ПРИБЫЛЬ ДО УПЛАТЫ НАЛОГОВ"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "Новые функции"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "Нет"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "примечания"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "Заметки не могут быть длиннее 256 символов"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "Заметки не могут быть длиннее 512 символов"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "Ноября"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "Количество наименований"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "Количество единиц"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "Октября"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "На удержание"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "необязательный"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "порядок"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "Разбивка заказов"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "Заказы"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "другой"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "В запасе"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "страница"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "оплачиваемый"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "Оплачено с"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "платежеспособный"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "уплата"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "Платежный шлюз"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "Платежный шлюз"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "Идентификатор оплаты"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "Идентификатор оплаты не может быть длиннее 64 символов"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "Методы оплаты"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "В ожидании оплаты"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "цена"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "обработка"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "Название продукта"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "Прибыль / убыток"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "Отчет о прибыли / убытке"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "Прибыли"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "Прибыль в день"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "могущий быть полученным"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "Возвращен"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "Успешно удалены расходы из записей."
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "Удален успешно"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "Отчеты"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "Обязательно"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "восстанавливать"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "доход"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "Цена продажи"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "сбытовой"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "спасать"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "Сохранить расходы на расходы?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "Сен"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "судоходство"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "Транспортный налог"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "СКУ"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "Проданные товары"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "источник"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "Расходов"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "Расходов"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "Расходы методом оплаты"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "Расходы по типу"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "Расходы на заказ"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "начало"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "Дата начала должна быть до даты окончания"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "статус"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "Уровень запасов"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "Стоимость акций"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "промежуточная сумма"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "успех"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "налог"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "Налоговая дебиторская задолженность"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "налоги"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "налоги"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "Налоги, подлежащие уплате"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "Налоговая дебиторская задолженность"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr ""
+"Эта операция переопределит все существующие вложения для этих расходов."
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "Эта операция установит уровень запасов WooCommerce на данный номер"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "Лучшие страны"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "Лучшие категории расходов"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "итог"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "Общее количество товаров"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "Общий доход"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "Общий доход по сравнению с чистой прибылью"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "Общие расходы"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "Общая стоимость акций"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "Общая налоговая дебиторская задолженность"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "Итоги"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "Операций"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "Перевод между счетами"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "тип"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "Невозможно добавить новые единицы"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "Невозможно удалить"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "Невозможно загрузить файл"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "Стоимость единицы"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "единицы будут добавлены в Finpose"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "Непроданные предметы"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "Обновлено успешно"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "Загружено успешно"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "Ожидание дополнительных данных"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "Уровень акций WooCommerce"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "Уровень акций WooCommerce выше, чем уровень акций Finpose"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "Предоставленный год недействителен"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "да"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr ""
+"Вы не можете отображать эту страницу. Пожалуйста, свяжитесь с "
+"администратором."

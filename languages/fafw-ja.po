@@ -1,0 +1,951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 07:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "%s は、インストールとアクティブ化する WooCommerce 3.0 以上が必要です!"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "アカウント"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "アカウントの差出人"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "アカウント名"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "アカウント名は 4 ~ 32 文字でなければなりません"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "アカウントスラッグは32文字以下にすることはできません"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "アカウントの作成後"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "アカウントの種類"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr "ウーコマースの会計。あなたが選択できる時間枠のあなたの在庫、支出、税金やアカウントを追跡します。"
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "アカウント"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "取得"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "アクション"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "在庫項目の追加"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "新しいアカウントの追加"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "新しいアカウントを追加する"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "新しいカテゴリの追加"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "新しい支出の追加"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "支払税の追加"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "在庫モジュールによって追加"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "新しいカテゴリを正常に追加しました"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "新しい支出を正常に追加しました"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "新しいユニットを正常に追加しました"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "すべての"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "すべてのアカウント"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "すべてのアイテム"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr "または、製品ページにアクセスしてWooCommerceの株価レベルを下げることもできます"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "量"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "4月"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "支出にファイルを添付"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "8 月"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "平均販売時間"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "平均注文値"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "平均注文時間"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "平均単位原価"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "秤"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "預金"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "ベストセラー"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "キャンセル"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "カテゴリ"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "アカウントの選択"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "ファイルの選択"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "歯車"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "完了"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "費用"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "販売商品のコスト"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "単一単位のコスト"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "国"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "クレジットカード"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "通貨"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "顧客"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "日付"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "追加日"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "作成日"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "指定された日付形式が無効です"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "支払われた日付"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "支払われた日付"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "販売日"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "日付転送"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "日"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "日"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "在庫日数"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "12 月"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "アカウントの削除"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "カテゴリの削除"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "アカウントの編集"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "カテゴリの編集"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "支出の編集"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "終わり"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "最期日"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "在庫コストを除く"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "既存のゲートウェイ"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "費用"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "輸出"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "失敗 しました"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "2月"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "フィルター"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "フィルターとエクスポート"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "フィンポーズ"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "フィンポーズストックレベル"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "製品用"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "行く"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "より大きい"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "粗利"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "お客様のフィードバックを共有することで、フィンポーズの改善を支援"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "輸入"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "インベントリ項目のインポート"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "税と送料を含む"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "収入"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "洞察 力"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "無効なアカウントが指定されました"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "無効なアイテム"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "無効な金額形式"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "無効なページ"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "無効な支払い情報"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "無効なステータス"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "無効な型"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "在庫"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "在庫コスト"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "請求日"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "販売されていますか?"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "項目"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "販売品目"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "販売品目"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "月"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "ジャーナル コード"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "7 月"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "6 月"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "最終更新日"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "以下"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "03 月"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "5 月"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "方式"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "指定された月は無効です"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "名前"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "名前は 128 文字以下にすることはできません"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "純利"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "純利"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "税金前の純利益"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "新機能"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "いいえ"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "筆記"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "メモは 256 文字以下にすることはできません"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "メモは 512 文字以下にすることはできません"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "11 月"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "アイテム数"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "単位数"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "10 月"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "保留中"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "随意"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "命令"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "注文の内訳"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "詻"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "他"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "在庫切れ"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "ページ"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "有料"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "支払い済み"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "支払う"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "支払い"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "支払いゲートウェイ"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "支払いゲートウェイ"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "支払 ID"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "支払 ID は 64 文字以下にすることはできません"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "支払方法"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "保留中の支払い"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "価格"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "加工"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "製品名"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "損益"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "損益レポート"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "利鞘"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "1 日あたりの利益"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "債権"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "返金"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "レコードから支出を正常に削除しました。"
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "正常に削除されました"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "レポート"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "必須"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "戻す"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "収入"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "販売価格"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "セールス"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "セーブ"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "支出のコストを節約しますか?"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "9 月"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "出荷"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "出荷税"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "スク"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "販売品目"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "源"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "支出"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "支出"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "支払方法別支出"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "タイプ別支出"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "注文ごとの支出"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "始める"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "開始日は終了日より前である必要があります"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "地位"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "在庫レベル"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "株式価値"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "小計"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "成功"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "税金"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "税金の売掛金"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "税"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "税"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "未払税金"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "受取税"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "この操作は、この支出の既存の添付ファイルを上書きします。"
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "この操作は、WooCommerceの株式レベルを指定された数に設定します"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "トップ国"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "上位支出カテゴリ"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "トータル"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "アイテムの合計数"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "総収益"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "総収益対純利益"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "総支出額"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "総在庫金額"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "税の売掛金合計"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "合計"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "トランザクション"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "アカウント間の転送"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "種類"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "新しい単位を追加できません"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "削除できません"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "ファイルをアップロードできません"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "単価"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "ユニットはフィンポーズで追加されます"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "売れ残りアイテム"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "正常に更新されました"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "正常にアップロードされました"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "より多くのデータを待機中"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "ウーコマース株式レベル"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "ウーコマースの株価レベルはフィンポーズ株式レベルよりも高い"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "指定された年は無効です"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "はい"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "このページを表示することはできません。管理者に問い合わせてください。"

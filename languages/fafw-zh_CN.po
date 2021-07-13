@@ -1,0 +1,951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Finpose\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 07:03+0000\n"
+"PO-Revision-Date: 2021-04-20 08:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: fafw"
+
+#: finpose.php:63
+#, php-format
+msgid "%s requires WooCommerce 3.0 or greater to be installed & activated!"
+msgstr "%s需要安装和激活伍商3.0或更多！"
+
+#: admin/views/accounts.php:62 admin/views/orders.php:142
+msgid "Account"
+msgstr "帐户"
+
+#: admin/views/accounts.php:140
+msgid "Account From"
+msgstr "帐户来自"
+
+#: admin/views/accounts.php:96 admin/views/accounts.php:223
+msgid "Account Name"
+msgstr "帐户名称"
+
+#: classes/accounts.class.php:90
+msgid "Account name must be between 4-32 characters"
+msgstr "帐户名称必须在 4-32 个字符之间"
+
+#: classes/accounts.class.php:96
+msgid "Account slug can not be longer than 32 characters"
+msgstr "帐户存根不能超过 32 个字符"
+
+#: admin/views/accounts.php:148
+msgid "Account To"
+msgstr "帐户到"
+
+#: admin/views/accounts.php:102 admin/views/accounts.php:229
+msgid "Account Type"
+msgstr "帐户类型"
+
+#. Description of the plugin
+msgid ""
+"Accounting for WooCommerce. Track your inventory, spendings, taxes and "
+"accounts for timeframes you can choose."
+msgstr "伍商业的会计。跟踪您的库存、支出、税收和帐户，以确定您可以选择的时间范围。"
+
+#: admin/views/accounts.php:4
+msgid "Accounts"
+msgstr "帐户"
+
+#: admin/views/spendings.php:142
+msgid "Acquisition"
+msgstr "收购"
+
+#: admin/views/spendings.php:86 admin/views/inventory.php:59
+#: admin/views/inventory.php:225
+msgid "Actions"
+msgstr "行动"
+
+#: admin/views/inventory.php:91
+msgid "Add Inventory Items"
+msgstr "添加库存项目"
+
+#: admin/views/accounts.php:200
+msgid "Add New Account"
+msgstr "添加新帐户"
+
+#: admin/views/accounts.php:42
+msgid "Add new account"
+msgstr "添加新帐户"
+
+#: admin/views/taxes.php:65 admin/views/spendings.php:131
+msgid "Add New Category"
+msgstr "添加新类别"
+
+#: admin/views/spendings.php:203
+msgid "Add New Spending"
+msgstr "添加新支出"
+
+#: admin/views/taxes.php:19
+msgid "Add Tax Paid"
+msgstr "添加已缴税款"
+
+#: classes/inventory.class.php:287
+msgid "Added by inventory module"
+msgstr "由库存模块添加"
+
+#: classes/spendings.class.php:343
+msgid "Added new category successfully"
+msgstr "成功添加新类别"
+
+#: classes/spendings.class.php:237
+msgid "Added new spending successfully"
+msgstr "成功增加新支出"
+
+#: classes/inventory.class.php:294
+msgid "Added new units successfully"
+msgstr "成功添加新单位"
+
+#: admin/views/orders.php:71
+msgid "All"
+msgstr "都"
+
+#: admin/views/spendings.php:61
+msgid "All Accounts"
+msgstr "所有帐户"
+
+#: admin/views/spendings.php:67 admin/views/spendings.php:260
+#: admin/views/spendings.php:345
+msgid "All Items"
+msgstr "所有项目"
+
+#: admin/views/inventory.php:164
+msgid ""
+"Alternatively you can decrease WooCommerce stock level by visiting product "
+"page"
+msgstr "或者，您也可以通过访问产品页面来降低 WooCommerce 库存水平"
+
+#: admin/views/taxes.php:77 admin/views/accounts.php:63
+#: admin/views/accounts.php:156 admin/views/spendings.php:84
+#: admin/views/spendings.php:232 admin/views/spendings.php:317
+msgid "Amount"
+msgstr "量"
+
+#: admin/views/reports.php:38
+msgid "Apr"
+msgstr "四月"
+
+#: admin/views/spendings.php:373
+msgid "Attach File to Spending"
+msgstr "将文件附加到支出"
+
+#: admin/views/reports.php:42
+msgid "Aug"
+msgstr "八月"
+
+#: admin/views/orders.php:47
+msgid "Average Time for Sale"
+msgstr "平均销售时间"
+
+#: admin/views/orders.php:39 admin/views/dashboard.php:31
+#: admin/views/finhome.php:43
+msgid "Avg. Order Value"
+msgstr "订单价值"
+
+#: admin/views/dashboard.php:36 admin/views/finhome.php:48
+msgid "Avg. Time for Order"
+msgstr "订单时间"
+
+#: admin/views/inventory.php:55
+msgid "Avg. Unit Cost"
+msgstr "单位成本"
+
+#: admin/views/taxes.php:32
+msgid "Balance"
+msgstr "平衡"
+
+#: admin/views/accounts.php:108 admin/views/accounts.php:235
+msgid "Bank account"
+msgstr "银行账户"
+
+#: admin/views/dashboard.php:118 admin/views/finhome.php:132
+msgid "Bestsellers"
+msgstr "畅销书"
+
+#: admin/views/orders.php:76
+msgid "Cancelled"
+msgstr "取消"
+
+#: admin/views/spendings.php:80 admin/views/spendings.php:226
+#: admin/views/spendings.php:311
+msgid "Category"
+msgstr "类别"
+
+#: admin/views/accounts.php:252
+msgid "Choose Account"
+msgstr "选择帐户"
+
+#: admin/views/spendings.php:388
+msgid "Choose file"
+msgstr "选择文件"
+
+#: admin/views/dashboard.php:93 admin/views/finhome.php:105
+msgid "COGS"
+msgstr "齿轮"
+
+#: admin/views/orders.php:72
+msgid "Completed"
+msgstr "完成"
+
+#: admin/views/spendings.php:140
+msgid "Cost"
+msgstr "成本"
+
+#: admin/views/dashboard.php:71 admin/views/finhome.php:83
+#: admin/views/reports.php:75
+msgid "Cost of Goods Sold"
+msgstr "商品销售成本"
+
+#: admin/views/inventory.php:113 admin/views/inventory.php:173
+msgid "Cost of Single Unit"
+msgstr "单个单位的成本"
+
+#: admin/views/orders.php:144
+msgid "Country"
+msgstr "国家"
+
+#: admin/views/accounts.php:107 admin/views/accounts.php:234
+msgid "Credit card"
+msgstr "信用卡"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Currency"
+msgstr "货币"
+
+#: admin/views/orders.php:143
+msgid "Customer"
+msgstr "客户"
+
+#: admin/views/dashboard.php:4 admin/views/finhome.php:4
+msgid "Dashboard"
+msgstr "挡泥板"
+
+#: admin/views/accounts.php:60 admin/views/orders.php:95
+msgid "Date"
+msgstr "日期"
+
+#: admin/views/inventory.php:219
+msgid "Date Added"
+msgstr "已添加日期"
+
+#: admin/views/orders.php:100 admin/views/orders.php:140
+msgid "Date created"
+msgstr "创建日期"
+
+#: classes/spendings.class.php:120 classes/inventory.class.php:126
+#: classes/accounts.class.php:114 classes/taxes.class.php:90
+msgid "Date format provided is invalid"
+msgstr "提供的日期格式无效"
+
+#: admin/views/taxes.php:73 admin/views/spendings.php:83
+#: admin/views/spendings.php:254 admin/views/spendings.php:339
+msgid "Date Paid"
+msgstr "已支付日期"
+
+#: admin/views/orders.php:101
+msgid "Date paid"
+msgstr "支付日期"
+
+#: admin/views/inventory.php:222
+msgid "Date Sold"
+msgstr "出售日期"
+
+#: admin/views/accounts.php:167
+msgid "Date Transfer"
+msgstr "日期转移"
+
+#: admin/views/dashboard.php:38 admin/views/dashboard.php:48
+#: admin/views/finhome.php:50 admin/views/finhome.php:60
+msgid "Days"
+msgstr "日"
+
+#: admin/views/inventory.php:235
+msgid "days"
+msgstr "日"
+
+#: admin/views/inventory.php:223
+msgid "Days in Stock"
+msgstr "库存天数"
+
+#: admin/views/reports.php:46
+msgid "Dec"
+msgstr "12 月"
+
+#: admin/views/accounts.php:119
+msgid "Delete Account"
+msgstr "删除帐户"
+
+#: admin/views/spendings.php:190
+msgid "Delete Category"
+msgstr "删除类别"
+
+#: admin/views/accounts.php:87
+msgid "Edit Account"
+msgstr "编辑帐户"
+
+#: admin/views/spendings.php:167
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#: admin/views/spendings.php:288
+msgid "Edit Spending"
+msgstr "编辑支出"
+
+#: admin/views/orders.php:111
+msgid "End"
+msgstr "结束"
+
+#: admin/views/inventory.php:54
+msgid "Est. Runout Date"
+msgstr "最长用完日期"
+
+#: admin/views/dashboard.php:79 admin/views/finhome.php:91
+msgid "excl. Inventory Costs"
+msgstr "不包括库存成本"
+
+#: admin/views/accounts.php:213
+msgid "Existing Gateways"
+msgstr "现有网关"
+
+#: admin/views/spendings.php:141
+msgid "Expense"
+msgstr "费用"
+
+#: admin/views/accounts.php:53 admin/views/orders.php:10
+#: admin/views/spendings.php:57 admin/views/reports.php:25
+msgid "Export"
+msgstr "出口"
+
+#: admin/views/orders.php:78
+msgid "Failed"
+msgstr "失败"
+
+#: admin/views/reports.php:36
+msgid "Feb"
+msgstr "2月"
+
+#: admin/views/orders.php:129
+msgid "Filter"
+msgstr "滤波器"
+
+#: admin/views/orders.php:6
+msgid "Filter & Export"
+msgstr "筛选器和导出"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Finpose"
+msgstr "芬波斯"
+
+#: admin/views/inventory.php:161
+msgid "Finpose stock level"
+msgstr "芬波斯库存水平"
+
+#: admin/views/inventory.php:104
+msgid "for the product"
+msgstr "对于产品"
+
+#: admin/views/taxes.php:17 admin/views/accounts.php:11
+#: admin/views/dashboard.php:11 admin/views/spendings.php:35
+#: admin/views/finhome.php:23 admin/views/reports.php:18
+msgid "Go"
+msgstr "去"
+
+#: admin/views/orders.php:86
+msgid "Greater than"
+msgstr "大于"
+
+#: admin/views/reports.php:84
+msgid "Gross Profit"
+msgstr "毛利"
+
+#: admin/views/dashboard.php:59 admin/views/finhome.php:71
+msgid "Help us improve Finpose by sharing your feedback"
+msgstr "通过分享您的反馈来帮助我们改进 Finpose"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://finpose.com"
+msgstr "https://finpose.com"
+
+#: admin/views/inventory.php:79
+msgid "Import"
+msgstr "进口"
+
+#: admin/views/inventory.php:145
+msgid "Import Inventory Items"
+msgstr "进口库存项目"
+
+#: admin/views/dashboard.php:53 admin/views/finhome.php:65
+msgid "incl. Tax & Shipping"
+msgstr "包括税务和航运"
+
+#: admin/views/reports.php:52
+msgid "INCOME"
+msgstr "收入"
+
+#: admin/views/dashboard.php:18 admin/views/finhome.php:30
+msgid "Insights"
+msgstr "见解"
+
+#: classes/accounts.class.php:108
+msgid "Invalid account provided"
+msgstr "提供的无效帐户"
+
+#: classes/spendings.class.php:96 classes/inventory.class.php:96
+msgid "Invalid items"
+msgstr "无效项目"
+
+#: classes/spendings.class.php:102 classes/inventory.class.php:108
+#: classes/accounts.class.php:84 classes/taxes.class.php:84
+msgid "Invalid money format"
+msgstr "无效货币格式"
+
+#: classes/inventory.class.php:102
+msgid "Invalid page"
+msgstr "无效页面"
+
+#: classes/spendings.class.php:90 classes/inventory.class.php:90
+msgid "Invalid Paid With Information"
+msgstr "与信息一起支付无效"
+
+#: classes/accounts.class.php:102
+msgid "Invalid status"
+msgstr "无效状态"
+
+#: classes/spendings.class.php:84 classes/inventory.class.php:84
+msgid "Invalid Type"
+msgstr "无效类型"
+
+#: admin/views/inventory.php:5
+msgid "Inventory"
+msgstr "库存"
+
+#: admin/views/dashboard.php:72 admin/views/finhome.php:84
+msgid "Inventory Costs"
+msgstr "库存成本"
+
+#: admin/views/orders.php:102
+msgid "Invoice date"
+msgstr "发票日期"
+
+#: admin/views/inventory.php:221
+msgid "Is Sold?"
+msgstr "卖完了吗？"
+
+#: admin/views/spendings.php:258 admin/views/spendings.php:343
+msgid "Items"
+msgstr "项目"
+
+#: admin/views/dashboard.php:26 admin/views/finhome.php:38
+msgid "Items Sold"
+msgstr "已售出的物品"
+
+#: admin/views/orders.php:23
+msgid "Items sold"
+msgstr "出售的物品"
+
+#: admin/views/reports.php:35
+msgid "Jan"
+msgstr "1月"
+
+#: admin/views/spendings.php:81 admin/views/spendings.php:150
+#: admin/views/spendings.php:180
+msgid "Journal Code"
+msgstr "日志代码"
+
+#: admin/views/reports.php:41
+msgid "Jul"
+msgstr "七月"
+
+#: admin/views/reports.php:40
+msgid "Jun"
+msgstr "六月"
+
+#: admin/views/inventory.php:19
+msgid "Last Update"
+msgstr "上次更新"
+
+#: admin/views/orders.php:87
+msgid "Lower than"
+msgstr "低于"
+
+#: admin/views/reports.php:37
+msgid "Mar"
+msgstr "三月"
+
+#: admin/views/reports.php:39
+msgid "May"
+msgstr "五月"
+
+#: admin/views/orders.php:116
+msgid "Method"
+msgstr "方法"
+
+#: classes/spendings.class.php:132 classes/inventory.class.php:138
+#: classes/accounts.class.php:78 classes/reporting.class.php:76
+#: classes/taxes.class.php:78 classes/orders.class.php:80
+msgid "Month provided is invalid"
+msgstr "提供的月份无效"
+
+#: admin/views/spendings.php:78 admin/views/spendings.php:146
+#: admin/views/spendings.php:176 admin/views/spendings.php:214
+#: admin/views/spendings.php:299 admin/views/spendings.php:384
+msgid "Name"
+msgstr "名字"
+
+#: classes/spendings.class.php:108 classes/inventory.class.php:114
+msgid "Name can not be longer than 128 characters"
+msgstr "名称不能超过 128 个字符"
+
+#: admin/views/reports.php:144
+msgid "NET PROFIT"
+msgstr "纯利"
+
+#: admin/views/dashboard.php:48 admin/views/dashboard.php:92
+#: admin/views/dashboard.php:102 admin/views/finhome.php:60
+#: admin/views/finhome.php:104 admin/views/finhome.php:114
+msgid "Net Profit"
+msgstr "纯利"
+
+#: admin/views/reports.php:122
+msgid "NET PROFIT BEFORE TAXES"
+msgstr "税前净利润"
+
+#: admin/views/accounts.php:212
+msgid "New"
+msgstr "新增功能"
+
+#: admin/views/inventory.php:233
+msgid "No"
+msgstr "不"
+
+#: admin/views/taxes.php:81 admin/views/accounts.php:64
+#: admin/views/accounts.php:174 admin/views/spendings.php:267
+#: admin/views/spendings.php:352
+msgid "Notes"
+msgstr "笔记"
+
+#: classes/accounts.class.php:120 classes/taxes.class.php:102
+msgid "Notes can not be longer than 256 characters"
+msgstr "注释不能超过 256 个字符"
+
+#: classes/spendings.class.php:114 classes/inventory.class.php:120
+msgid "Notes can not be longer than 512 characters"
+msgstr "注释不能超过 512 个字符"
+
+#: admin/views/reports.php:45
+msgid "Nov"
+msgstr "11 月"
+
+#: admin/views/inventory.php:36
+msgid "Number of Items"
+msgstr "项目数量"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Number of Units"
+msgstr "单位数量"
+
+#: admin/views/reports.php:44
+msgid "Oct"
+msgstr "10 月"
+
+#: admin/views/orders.php:75
+msgid "On hold"
+msgstr "暂停"
+
+#: admin/views/taxes.php:81 admin/views/taxes.php:85
+#: admin/views/spendings.php:150
+msgid "Optional"
+msgstr "自选"
+
+#: admin/views/orders.php:66
+msgid "Order"
+msgstr "次序"
+
+#: admin/views/dashboard.php:108 admin/views/finhome.php:120
+msgid "Order Breakdowns"
+msgstr "订单细分"
+
+#: admin/views/orders.php:4 admin/views/dashboard.php:21
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:38
+#: admin/views/dashboard.php:43 admin/views/finhome.php:33
+#: admin/views/finhome.php:45 admin/views/finhome.php:50
+#: admin/views/finhome.php:55
+msgid "Orders"
+msgstr "订单"
+
+#: admin/views/accounts.php:109 admin/views/accounts.php:236
+msgid "Other"
+msgstr "其他"
+
+#: classes/inventory.class.php:175 admin/views/inventory.php:71
+msgid "Out of stock"
+msgstr "库存"
+
+#: admin/views/inventory.php:43 admin/views/inventory.php:211
+msgid "Page"
+msgstr "页"
+
+#: admin/views/taxes.php:31
+msgid "Paid"
+msgstr "支付"
+
+#: admin/views/spendings.php:82 admin/views/spendings.php:246
+#: admin/views/spendings.php:331 admin/views/inventory.php:121
+#: admin/views/inventory.php:181
+msgid "Paid With"
+msgstr "付费"
+
+#: admin/views/taxes.php:29
+msgid "Payable"
+msgstr "支付"
+
+#: admin/views/orders.php:114
+msgid "Payment"
+msgstr "付款"
+
+#: admin/views/accounts.php:242
+msgid "Payment Gateway"
+msgstr "支付网关"
+
+#: admin/views/accounts.php:106 admin/views/accounts.php:233
+msgid "Payment gateway"
+msgstr "支付网关"
+
+#: admin/views/taxes.php:85
+msgid "Payment ID"
+msgstr "付款ID"
+
+#: classes/taxes.class.php:96
+msgid "Payment ID can not be longer than 64 characters"
+msgstr "付款ID不能超过64个字符"
+
+#: admin/views/dashboard.php:125 admin/views/finhome.php:141
+msgid "Payment Methods"
+msgstr "付款方式"
+
+#: admin/views/orders.php:73
+msgid "Pending Payment"
+msgstr "待付款"
+
+#: admin/views/inventory.php:57
+msgid "Price"
+msgstr "价格"
+
+#: admin/views/orders.php:74
+msgid "Processing"
+msgstr "加工"
+
+#: admin/views/inventory.php:52 admin/views/inventory.php:100
+#: admin/views/inventory.php:154
+msgid "Product Name"
+msgstr "产品名称"
+
+#: admin/views/orders.php:55
+msgid "Profit / Loss"
+msgstr "损益"
+
+#: admin/views/reports.php:28
+msgid "Profit / Loss Report"
+msgstr "损益报告"
+
+#: admin/views/dashboard.php:100 admin/views/finhome.php:112
+#: admin/views/inventory.php:58
+msgid "Profit Margin"
+msgstr "利润率"
+
+#: admin/views/dashboard.php:46 admin/views/finhome.php:58
+msgid "Profit per Day"
+msgstr "每日利润"
+
+#: admin/views/taxes.php:30
+msgid "Receivable"
+msgstr "应 收账 款"
+
+#: admin/views/orders.php:77
+msgid "Refunded"
+msgstr "退还"
+
+#: classes/spendings.class.php:298
+msgid "Removed spending from records successfully."
+msgstr "成功地从记录中删除了支出。"
+
+#: classes/inventory.class.php:350
+msgid "Removed successfully"
+msgstr "成功删除"
+
+#: admin/views/reports.php:5
+msgid "Reports"
+msgstr "报告"
+
+#: admin/views/inventory.php:109 admin/views/inventory.php:169
+msgid "Required"
+msgstr "必填"
+
+#: admin/views/accounts.php:214
+msgid "Restore"
+msgstr "恢复"
+
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:102
+#: admin/views/finhome.php:105 admin/views/finhome.php:114
+msgid "Revenue"
+msgstr "收入"
+
+#: admin/views/inventory.php:224
+msgid "Sale Price"
+msgstr "销售价格"
+
+#: admin/views/reports.php:57
+msgid "Sales"
+msgstr "销售"
+
+#: admin/views/taxes.php:90 admin/views/accounts.php:113
+#: admin/views/accounts.php:183 admin/views/accounts.php:261
+#: admin/views/spendings.php:155 admin/views/spendings.php:185
+#: admin/views/spendings.php:272 admin/views/spendings.php:357
+#: admin/views/spendings.php:392 admin/views/inventory.php:132
+#: admin/views/inventory.php:192
+msgid "Save"
+msgstr "救"
+
+#: admin/views/inventory.php:128 admin/views/inventory.php:188
+msgid "Save cost in spendings?"
+msgstr "节省开支成本？"
+
+#: admin/views/reports.php:43
+msgid "Sep"
+msgstr "九月"
+
+#: admin/views/orders.php:146 admin/views/reports.php:66
+msgid "Shipping"
+msgstr "航运"
+
+#: admin/views/orders.php:147
+msgid "Shipping Tax"
+msgstr "运费"
+
+#: admin/views/inventory.php:218
+msgid "SKU"
+msgstr "斯库"
+
+#: admin/views/inventory.php:249
+msgid "Sold Items"
+msgstr "已售物品"
+
+#: admin/views/accounts.php:208
+msgid "Source"
+msgstr "源"
+
+#: admin/views/reports.php:95
+msgid "SPENDINGS"
+msgstr "开支"
+
+#: admin/views/dashboard.php:43 admin/views/dashboard.php:78
+#: admin/views/dashboard.php:93 admin/views/dashboard.php:135
+#: admin/views/spendings.php:5 admin/views/finhome.php:55
+#: admin/views/finhome.php:90 admin/views/finhome.php:105
+#: admin/views/finhome.php:153
+msgid "Spendings"
+msgstr "开支"
+
+#: admin/views/dashboard.php:151 admin/views/finhome.php:171
+msgid "Spendings by Payment Method"
+msgstr "按付款方式支出"
+
+#: admin/views/dashboard.php:145 admin/views/finhome.php:165
+msgid "Spendings by Type"
+msgstr "按类型分项支出"
+
+#: admin/views/dashboard.php:41 admin/views/finhome.php:53
+msgid "Spendings per Order"
+msgstr "每订单的支出"
+
+#: admin/views/orders.php:107
+msgid "Start"
+msgstr "开始"
+
+#: classes/app.class.php:231
+msgid "Start date should be before end date"
+msgstr "开始日期应在结束日期之前"
+
+#: admin/views/orders.php:68 admin/views/orders.php:141
+msgid "Status"
+msgstr "地位"
+
+#: admin/views/inventory.php:53
+msgid "Stock Level"
+msgstr "库存级别"
+
+#: admin/views/inventory.php:56
+msgid "Stock Value"
+msgstr "股票价值"
+
+#: admin/views/orders.php:148
+msgid "Subtotal"
+msgstr "小计"
+
+#: classes/spendings.class.php:361 classes/spendings.class.php:379
+msgid "Success"
+msgstr "成功"
+
+#: admin/views/orders.php:145 admin/views/dashboard.php:93
+#: admin/views/finhome.php:105
+msgid "Tax"
+msgstr "税"
+
+#: admin/views/spendings.php:85 admin/views/spendings.php:236
+#: admin/views/spendings.php:321
+msgid "Tax Receivable"
+msgstr "应收税款"
+
+#: admin/views/reports.php:133
+msgid "TAXES"
+msgstr "税"
+
+#: admin/views/taxes.php:4 admin/views/dashboard.php:85
+#: admin/views/finhome.php:97
+msgid "Taxes"
+msgstr "税"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Payable"
+msgstr "应付税款"
+
+#: admin/views/dashboard.php:86 admin/views/finhome.php:98
+msgid "Taxes Receivable"
+msgstr "应收税款"
+
+#: admin/views/spendings.php:400
+msgid ""
+"This operation will override any existing attachments for this spending."
+msgstr "此操作将覆盖此支出的任何现有附件。"
+
+#: admin/views/inventory.php:104
+msgid "This operation will set WooCommerce stock level to given number"
+msgstr "此操作将伍商业库存级别设置为给定数量"
+
+#: admin/views/dashboard.php:111 admin/views/finhome.php:123
+msgid "Top Countries"
+msgstr "热门国家/地区"
+
+#: admin/views/dashboard.php:138 admin/views/finhome.php:156
+msgid "Top Spending Categories"
+msgstr "顶级支出类别"
+
+#: admin/views/orders.php:31 admin/views/orders.php:83
+#: admin/views/orders.php:149 admin/views/reports.php:47
+msgid "Total"
+msgstr "总"
+
+#: admin/views/inventory.php:265
+msgid "Total Number of Items"
+msgstr "项目总数"
+
+#: admin/views/dashboard.php:33 admin/views/dashboard.php:51
+#: admin/views/finhome.php:45 admin/views/finhome.php:63
+msgid "Total Revenue"
+msgstr "总收入"
+
+#: admin/views/dashboard.php:65 admin/views/finhome.php:77
+msgid "Total Revenue vs. Net Profit"
+msgstr "总收入与净利润"
+
+#: admin/views/reports.php:111
+msgid "Total Spendings"
+msgstr "总支出"
+
+#: admin/views/inventory.php:28
+msgid "Total Stock Value"
+msgstr "总股票价值"
+
+#: admin/views/inventory.php:117 admin/views/inventory.php:177
+msgid "Total Tax Receivable"
+msgstr "应收税款总额"
+
+#: admin/views/taxes.php:48 admin/views/orders.php:169
+msgid "Totals"
+msgstr "总数"
+
+#: admin/views/accounts.php:50
+msgid "Transactions"
+msgstr "交易"
+
+#: admin/views/accounts.php:13 admin/views/accounts.php:132
+msgid "Transfer Between Accounts"
+msgstr "账户之间的转移"
+
+#: admin/views/accounts.php:61 admin/views/orders.php:97
+#: admin/views/spendings.php:79 admin/views/spendings.php:138
+#: admin/views/spendings.php:218 admin/views/spendings.php:303
+msgid "Type"
+msgstr "类型"
+
+#: classes/inventory.class.php:296
+msgid "Unable to add new units"
+msgstr "无法添加新单位"
+
+#: classes/inventory.class.php:352
+msgid "Unable to remove"
+msgstr "无法删除"
+
+#: classes/spendings.class.php:289
+msgid "Unable to upload file"
+msgstr "无法上传文件"
+
+#: admin/views/inventory.php:220
+msgid "Unit Cost"
+msgstr "单位成本"
+
+#: admin/views/inventory.php:162
+msgid "units will be added in Finpose"
+msgstr "单位将被添加到芬波塞"
+
+#: admin/views/inventory.php:257
+msgid "Unsold Items"
+msgstr "未售出物品"
+
+#: classes/spendings.class.php:268
+msgid "Updated successfully"
+msgstr "成功更新"
+
+#: classes/spendings.class.php:285
+msgid "Uploaded successfully"
+msgstr "成功上传"
+
+#: classes/inventory.class.php:172
+msgid "Waiting more data"
+msgstr "等待更多数据"
+
+#: admin/views/inventory.php:160
+msgid "WooCommerce stock level"
+msgstr "伍商业股票水平"
+
+#: admin/views/inventory.php:158
+msgid "WooCommerce stock level is higher than Finpose stock level"
+msgstr "伍商业股票水平高于芬波斯股票水平"
+
+#: classes/spendings.class.php:126 classes/inventory.class.php:132
+#: classes/accounts.class.php:72 classes/reporting.class.php:70
+#: classes/taxes.class.php:72 classes/orders.class.php:74
+msgid "Year provided is invalid"
+msgstr "提供的年份无效"
+
+#: admin/views/inventory.php:233
+msgid "Yes"
+msgstr "是的"
+
+#: admin/class-fafw-admin.php:165
+msgid "You are not allowed to display this page. Please contact administrator."
+msgstr "不允许显示此页面。请联系管理员。"
