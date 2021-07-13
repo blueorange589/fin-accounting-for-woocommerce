@@ -17,7 +17,7 @@
 	<div class="fin-head">
 		<div class="fin-head-left">
 			<span><?php _e('Taxes', 'fafw'); ?></span>
-			<img src="<?php echo FAFW_BASE_URL; ?>assets/img/arrow-right.svg" class="icon">
+			<img src="<?php echo FAFW_BASE_URL; ?>admin/assets/img/arrow-right.svg" class="icon">
 			<span><?=$handler->selyear?></span>
 		</div>
 		<div class="fin-head-right">
@@ -119,7 +119,7 @@
 			<div class="fin-head">
 				<div class="fin-head-left">
 					<span><?php _e('Taxes Payable', 'fafw'); ?></span>
-					<img src="<?php echo FAFW_BASE_URL; ?>assets/img/arrow-right.svg" class="icon">
+					<img src="<?php echo FAFW_BASE_URL; ?>admin/assets/img/arrow-right.svg" class="icon">
 					<span>{{title}}</span>
 				</div>
 				<div class="fin-head-right">

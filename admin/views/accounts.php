@@ -20,7 +20,7 @@
 				<div class="accounts-items">
 					<div :class="'accounts-item' + (filters.account==acc.slug?' active':'')" v-for="(acc, index) in accounts">
 						<div class="acc-icon">
-							<img :src="siteurl + 'assets/img/acc-' + acc.type + '.svg'" class="gwtype">
+							<img :src="siteurl + 'admin/assets/img/acc-' + acc.type + '.svg'" class="gwtype">
 						</div>
 						<div class="acc-info">
 							<div class="h4 name">
@@ -28,7 +28,7 @@
 									{{acc.name}}
 								</a>
 								<a @click="editAccountModal(acc)">
-									<img :src="siteurl + 'assets/img/pencil.svg'" class="accounts-rename-icon">
+									<img :src="siteurl + 'admin/assets/img/pencil.svg'" class="accounts-rename-icon">
 								</a>
 							</div>
 							<div :class="'h4 balance ' + (acc.balance>0?'plus':'minus')">{{currencySymbol}} {{acc.balance}}</div>
@@ -36,7 +36,7 @@
 					</div>
 					<div class="accounts-item addnew">
 						<div class="acc-icon">
-							<img :src="siteurl + 'assets/img/acc-add.svg'">
+							<img :src="siteurl + 'admin/assets/img/acc-add.svg'">
 						</div>
 						<div class="acc-info">
 							<a @click="addNewModal"><?php _e('Add new account', 'fafw'); ?></a>

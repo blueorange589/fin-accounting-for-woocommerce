@@ -57,10 +57,10 @@ if ( !class_exists( 'fafw_Admin' ) ) {
         //if( empty( $hook ) ) $hook = bp_core_do_network_admin() ? str_replace( '-network', '', get_current_screen()->id ) : get_current_screen()->id;
 
         if( in_array( $hook, $this->hook_suffixes ) ) {
-          wp_enqueue_style('jquery-ui-css', FAFW_BASE_URL . 'assets/lib/jqueryui/jquery-ui.min.css');
-          wp_enqueue_style( 'finhelper', FAFW_BASE_URL . 'assets/css/fin_helper.css', array(), $this->version, 'all' );
-          wp_enqueue_style( 'fincss', FAFW_BASE_URL . 'assets/css/fafw.css', array(), $this->version, 'all' );
-          wp_enqueue_style( 'toastr', FAFW_BASE_URL . 'assets/css/toastr.min.css', array(), $this->version, 'all' );
+          wp_enqueue_style('jquery-ui-css', FAFW_BASE_URL . 'admin/assets/lib/jqueryui/jquery-ui.min.css');
+          wp_enqueue_style( 'finhelper', FAFW_BASE_URL . 'admin/assets/css/fin_helper.css', array(), $this->version, 'all' );
+          wp_enqueue_style( 'fincss', FAFW_BASE_URL . 'admin/assets/css/fafw.css', array(), $this->version, 'all' );
+          wp_enqueue_style( 'toastr', FAFW_BASE_URL . 'admin/assets/css/toastr.min.css', array(), $this->version, 'all' );
         }
 
       }
@@ -80,18 +80,18 @@ if ( !class_exists( 'fafw_Admin' ) ) {
         if( in_array( $hook, $this->hook_suffixes ) ) {
           add_thickbox();
           wp_enqueue_script('jquery-ui-datepicker');
-          wp_enqueue_script( 'jqblock', FAFW_BASE_URL . 'assets/js/jquery.blockUI.js', array( 'jquery' ), $this->version, true );
-          wp_enqueue_script( 'finmain', FAFW_BASE_URL . 'assets/js/main.js', array( 'jquery' ), $this->version, true );
-          wp_enqueue_script( 'vue', FAFW_BASE_URL . 'assets/js/vue.js', array( ), $this->version, false );
+          wp_enqueue_script( 'jqblock', FAFW_BASE_URL . 'admin/assets/js/jquery.blockUI.js', array( 'jquery' ), $this->version, true );
+          wp_enqueue_script( 'finmain', FAFW_BASE_URL . 'admin/assets/js/main.js', array( 'jquery' ), $this->version, true );
+          wp_enqueue_script( 'vue', FAFW_BASE_URL . 'admin/assets/js/vue.js', array( ), $this->version, false );
           if(in_array($this->pageName, array('taxes'))) {
-            wp_enqueue_script( 'vuerouter', FAFW_BASE_URL . 'assets/js/vue-router.min.js', array( 'vue' ), $this->version, false );
+            wp_enqueue_script( 'vuerouter', FAFW_BASE_URL . 'admin/assets/js/vue-router.min.js', array( 'vue' ), $this->version, false );
           }
-          wp_enqueue_script( 'vuepage', FAFW_BASE_URL . 'assets/js/pages/'.$this->pageName.'.js', array( 'vue', 'finmain' ), $this->version, true );
+          wp_enqueue_script( 'vuepage', FAFW_BASE_URL . 'admin/assets/js/pages/'.$this->pageName.'.js', array( 'vue', 'finmain' ), $this->version, true );
           if(in_array($this->pageName, array('dashboard'))) {
-            wp_enqueue_script( 'finchart', FAFW_BASE_URL . 'assets/js/Chart.min.js', array( 'jquery' ), $this->version, false );
+            wp_enqueue_script( 'finchart', FAFW_BASE_URL . 'admin/assets/js/Chart.min.js', array( 'jquery' ), $this->version, false );
           }
-          wp_enqueue_script( 'table2csv', FAFW_BASE_URL . 'assets/js/jquery.tabletoCSV.js', array( 'jquery' ), $this->version, false );
-          wp_enqueue_script( 'toastr', FAFW_BASE_URL . 'assets/js/toastr.min.js', array( 'jquery' ), $this->version, false );
+          wp_enqueue_script( 'table2csv', FAFW_BASE_URL . 'admin/assets/js/jquery.tabletoCSV.js', array( 'jquery' ), $this->version, false );
+          wp_enqueue_script( 'toastr', FAFW_BASE_URL . 'admin/assets/js/toastr.min.js', array( 'jquery' ), $this->version, false );
           
           $symbol = '';
           if (function_exists('get_woocommerce_currency_symbol')) { $symbol = get_woocommerce_currency_symbol(); }  

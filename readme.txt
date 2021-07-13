@@ -1,4 +1,4 @@
-=== Pending Payment Reminder for WooCommerce ===
+=== Fin Accounting for WooCommerce ===
 Contributors: blueorange589
 Tags: pending payment, payment reminder, email reminder
 Requires at least: 4.0
@@ -8,40 +8,40 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Get a list of orders pending payment and send out a reminder email on a button click.
+Accounting and financial tracking tool for online stores. Track your costs, expenses, taxes and sales for timeframes you can choose.
 
 == Description ==
-An order can be remain unpaid due to technical issues site was experiencing or customer left the process. 
-Using the plugin, you can get a list of orders with pending payment status and send out a reminder email on a button click.
+Fin Accounting is a plugin for WooCommerce that provides all the features you need to cover all the accounting bases of your operation. 
+Using the plugin, you’ll be able to manage tax, spendings, orders and accounts.
+All these are delivered right inside your WordPress admin dashboard, no integrations needed. 
 
-"Pay Now" button is automatically added in emails sent out.
-
-Reminder email templates can be modified through
-* Settings > Emails > Payment Reminder
-
-If you'd like to send out reminder emails through a 3rd party mailing solution, you can also export list of pending payment orders to CSV.
+== Modules ==
+* Spendings
+* Tax
+* Orders
+* Accounts
+* Inventory (PRO)
+* Reporting (PRO)
+* Dashboard (PRO)
 
 == Features ==
-* Email Integration
-* CSV Exports
+* Multi language (40+ languages)
+* Multisite support
+* Access control (limited to superadmin & shop manager roles)
+* AJAX requests
+* Integrated charts
+* Data Exports
+
 
 == Frequently Asked Questions ==
 
 = Who should use this plugin? =
+It's a must have plugin for online stores running on WooCommerce. It allows store owners monitor store finances.
 
-If your site having orders with pending payment status on a regular basis, or if it's already have some from history, plugin would be a good fit for your site.
+= Is it multi-currency? =
 
-= How to send out reminders? =
+If your shop is multi currency, order reports are listed with their own currency. All other actions (e.g. spendings) use default WooCommerce store currency.
 
-All you need is to click paper plane icon. Email with payment information should arrive in customer email box instantly.
-
-= Is it only or pending orders? =
-
-Plugin lists orders with status 'on-hold' and 'pending' only. Asking for user confirmation, on-hold orders are converted to pending before sending out the email, so payment becomes available.
-
-= How to know last time I sent payment reminder email? =
-
-Date information for last time you sent out payment reminder will be shown in "Last reminder" column.
 
 == Screenshots ==
 1. Reminder email with "Pay Now" button.

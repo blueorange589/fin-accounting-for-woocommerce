@@ -43,7 +43,7 @@
 				<ul id="cats-left">
 					<li v-for="(item, index) in leftcats" :class="(index==cat?'catactive':'')">
 						<a @click="setCategory(index)">{{item.name}}</a> 
-						<span v-if="index==cat"><a @click="editCategoryModal(index, item)"><img :src="siteurl + 'assets/img/pencil.svg'"/></a></span>
+						<span v-if="index==cat"><a @click="editCategoryModal(index, item)"><img :src="siteurl + 'admin/assets/img/pencil.svg'"/></a></span>
 					</li>
 				</ul>
 				<ul>
@@ -88,7 +88,7 @@
 					</thead>
 					<tbody id="spending-rows">
 							<tr v-for="(spd, index) in spendings">
-								<td><span v-if="spd.attfile"><a :href="spd.attfile" target="_blank"><img :src="siteurl + 'assets/img/attachment.svg'"/></a></span><span v-if="spd.notes.length>0"><span class="tooltip"><img :src="siteurl + 'assets/img/note-text.svg'"/><span class="tooltiptext">{{spd.notes}}</span></span></span>{{spd.name}}</td>
+								<td><span v-if="spd.attfile"><a :href="spd.attfile" target="_blank"><img :src="siteurl + 'admin/assets/img/attachment.svg'"/></a></span><span v-if="spd.notes.length>0"><span class="tooltip"><img :src="siteurl + 'admin/assets/img/note-text.svg'"/><span class="tooltiptext">{{spd.notes}}</span></span></span>{{spd.name}}</td>
 								<td v-if="type=='all'">{{capitalizeFirstLetter(spd.type)}}</td>
 								<td>{{categoryName(spd)}}</td>
 								<td>{{categoryCode(spd)}}</td>
@@ -97,9 +97,9 @@
 								<td class="tar">{{spd.amountFormatted}}</td>
 								<td class="tar">{{spd.trFormatted}}</td>
 								<td class="tar">
-									<a href="javascript:void(0);" @click="displayUploader(index, spd)"><img :src="siteurl + 'assets/img/upload.svg'"/></a>
-									<a href="javascript:void(0);" @click="editSpending(index, spd)"><img :src="siteurl + 'assets/img/pencil.svg'"/></a>
-									<a href="javascript:void(0);" @click="deleteSpending(index, spd.coid)"><img :src="siteurl + 'assets/img/cross.svg'"/></a>
+									<a href="javascript:void(0);" @click="displayUploader(index, spd)"><img :src="siteurl + 'admin/assets/img/upload.svg'"/></a>
+									<a href="javascript:void(0);" @click="editSpending(index, spd)"><img :src="siteurl + 'admin/assets/img/pencil.svg'"/></a>
+									<a href="javascript:void(0);" @click="deleteSpending(index, spd.coid)"><img :src="siteurl + 'admin/assets/img/cross.svg'"/></a>
 								</td>
 							</tr>
 					</tbody>

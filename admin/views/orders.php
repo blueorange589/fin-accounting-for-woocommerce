@@ -2,7 +2,7 @@
 	<div class="fin-head">
 		<div class="fin-head-left">
 			<span><?php esc_html_e( 'Orders', 'fafw' ); ?></span>
-			<img src="<?php echo FAFW_BASE_URL; ?>assets/img/arrow-right.svg" class="icon">
+			<img src="<?php echo FAFW_BASE_URL; ?>admin/assets/img/arrow-right.svg" class="icon">
 			<span><?php esc_html_e( 'Filter & Export', 'fafw' ); ?></span>
 		</div>
 		<div class="fin-head-right">
