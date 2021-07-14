@@ -81,12 +81,14 @@ if ( !class_exists( 'fafw_Admin' ) ) {
           add_thickbox();
           wp_enqueue_script('jquery-ui-datepicker');
           wp_enqueue_script( 'jqblock', FAFW_BASE_URL . 'admin/assets/js/jquery.blockUI.js', array( 'jquery' ), $this->version, true );
-          wp_enqueue_script( 'finmain', FAFW_BASE_URL . 'admin/assets/js/main.js', array( 'jquery' ), $this->version, true );
+          wp_enqueue_script( 'fafwmain', FAFW_BASE_URL . 'admin/assets/js/main.js', array( 'jquery' ), $this->version, true );
           wp_enqueue_script( 'vue', FAFW_BASE_URL . 'admin/assets/js/vue.js', array( ), $this->version, false );
           if(in_array($this->pageName, array('taxes'))) {
             wp_enqueue_script( 'vuerouter', FAFW_BASE_URL . 'admin/assets/js/vue-router.min.js', array( 'vue' ), $this->version, false );
           }
-          wp_enqueue_script( 'vuepage', FAFW_BASE_URL . 'admin/assets/js/pages/'.$this->pageName.'.js', array( 'vue', 'finmain' ), $this->version, true );
+          if(!in_array($this->pageName, array('pro'))) {
+            wp_enqueue_script( 'vuepage', FAFW_BASE_URL . 'admin/assets/js/pages/'.$this->pageName.'.js', array( 'vue', 'fafwmain' ), $this->version, true );
+          }
           if(in_array($this->pageName, array('dashboard'))) {
             wp_enqueue_script( 'finchart', FAFW_BASE_URL . 'admin/assets/js/Chart.min.js', array( 'jquery' ), $this->version, false );
           }
@@ -95,7 +97,7 @@ if ( !class_exists( 'fafw_Admin' ) ) {
           
           $symbol = '';
           if (function_exists('get_woocommerce_currency_symbol')) { $symbol = get_woocommerce_currency_symbol(); }  
-          wp_localize_script('finmain', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ), 'symbol'=>$symbol, 'fin_url'=> FAFW_BASE_URL, 'nonce'=>wp_create_nonce('fafwpost')));
+          wp_localize_script('fafwmain', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ), 'symbol'=>$symbol, 'fin_url'=> FAFW_BASE_URL, 'nonce'=>wp_create_nonce('fafwpost')));
         }
       }
 

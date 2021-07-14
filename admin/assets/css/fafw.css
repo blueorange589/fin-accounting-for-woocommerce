@@ -1012,6 +1012,39 @@ a{cursor: pointer;}
 .orders-menu .om-sub .om-sub-right > *{width:200px;}
 
 
+/* PRO PAGE */
+.prowrap{background-color:#f1f1f1;padding:2rem;margin:0px;}
+.prowrap > h1, .prowrap > h3 {text-align:center}
+.prowrap .logowrap {
+  height:70px;text-align:center;padding: 5px 0px;
+	display:flex;flex-direction: column;justify-content: space-between;align-items:center;align-content:center;
+	font-size: 16px;
+}
+.prowrap .logowrap img {max-height:40%;}
+.prowrap .cards{display:flex;justify-content:space-between;}
+.prowrap .card{flex:.32;max-width:32%;background-color:#fff;border-radius:6px;box-shadow: 1px 1px 3px #ccc;padding:0px}
+.prowrap .cardimg > img{max-width:100%;border-top-left-radius:6px;border-top-right-radius:6px;}
+.prowrap .cardct{padding:1rem;}
+
+.prowrap .card h2 {margin:4px 0px;}
+.prowrap .btn {
+	display: inline-flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding:14px 36px; 
+text-decoration:none; border-radius:6px; font-size:22px;
+font-weight:bold;
+text-shadow: 0 0px 1px #222;
+box-shadow: 1px 1px 3px #ccc;
+}
+.prowrap .buycta{background-color:#19a40e; color: white; }
+.prowrap .democta{background-color:#f5db00; color: #222;}
+.prowrap .btn > img {width:24px;height:24px;margin-right:6px;}
+.prowrap .ctawrap {height:60px; text-align:center;padding-top:1rem;}
+
+
+
 body #adminmenu a[href="admin.php?page=fin_pro"] {
 	color: rgb(241, 133, 0);
 }
