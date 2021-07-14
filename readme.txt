@@ -1,6 +1,6 @@
 === Fin Accounting for WooCommerce ===
 Contributors: blueorange589
-Tags: pending payment, payment reminder, email reminder
+Tags: accounting, expense, tax, inventory, report, woocommerce, profit, cogs, cost
 Requires at least: 4.0
 Tested up to: 5.7
 Requires PHP: 5.4
@@ -44,8 +44,12 @@ If your shop is multi currency, order reports are listed with their own currency
 
 
 == Screenshots ==
-1. Reminder email with "Pay Now" button.
-2. List of orders with pending payment status
+1. Orders Filter and Export
+2. Spendings
+3. Taxes by Months
+4. Sales Tax Details
+5. Accounts and Transactions
+6. Add New Spending
 
 == Changelog ==
 
@@ -59,7 +63,7 @@ If your shop is multi currency, order reports are listed with their own currency
 
 
 == Requirements ==
-In order to Install and start using Pending Payment Reminder for WooCommerce, you need to have following requirements.
+In order to Install and start using Fin Accounting for WooCommerce, you need to have following requirements.
 
 PHP	Minimum Version 5.4
 WordPress	Minimum Version 4.0
@@ -77,4 +81,4 @@ Installation
  * Click Download and download .zip file to your computer.
  * Unzip your downloaded .zip file to a local folder.
  * Using an FTP client, upload your local folder contents into your WordPress installation’s /wp-content/plugins directory (e.g. /wp-content/plugins/order-reports)
- * Visit Plugins page on your WordPress Admin and click Activate for "Pending Payment Reminder for WooCommerce"" plugin.
+ * Visit Plugins page on your WordPress Admin and click Activate for "Fin Accounting for WooCommerce"" plugin.
