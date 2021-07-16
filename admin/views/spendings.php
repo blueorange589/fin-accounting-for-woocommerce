@@ -177,7 +177,7 @@
 								<input id="editname" type="text" name="name" data-validate="required" maxlength="128" v-model="catrow.name">
 							</div>
 							<div class="pb1">
-								<div><b><?php esc_html_e( 'Journal Code', 'fafw' ); ?></b><span class="placeholder flr">Optional</span></div>
+								<div><b><?php esc_html_e( 'Journal Code', 'fafw' ); ?></b><span class="placeholder flr"><?php esc_html_e( 'Optional', 'fafw' ); ?></span></div>
 								<input id="editjc" type="text" name="jcode" maxlength="32" v-model="catrow.jcode">
 							</div>
 							<hr>
@@ -302,9 +302,9 @@
 								<div>
 									<b><?php esc_html_e( 'Type', 'fafw' ); ?></b>
 									<select name="type" @change="setCatlist" v-model="row.type">
-										<option value="cost">Cost</option>
-										<option value="expense">Expense</option>
-										<option value="acquisition">Acquisition</option>
+										<option value="cost"><?php esc_html_e( 'Cost', 'fafw' ); ?></option>
+										<option value="expense"><?php esc_html_e( 'Expense', 'fafw' ); ?></option>
+										<option value="acquisition"><?php esc_html_e( 'Acquisition', 'fafw' ); ?></option>
 									</select>
 								</div>
 								<div>

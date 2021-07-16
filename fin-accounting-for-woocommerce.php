@@ -13,11 +13,10 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Fin Accounting for WooCommerce
- * Plugin URI:        https://finpose.com
  * Description:       Bookkeeping for WooCommerce from the WordPress Dashboard.
  * Version:           1.0.0
  * WC requires at least:  3.0.0
- * WC tested up to:       5.0.0
+ * WC tested up to:       5.5.0
  * Author:            Finpose
  * Author URI:        https://finpose.com
  * Text Domain:       fafw
