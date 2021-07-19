@@ -60,13 +60,13 @@
 						<select name="paidwith" v-model="filters.paidwith" @change="getSpendings">
 							<option value="0"><?php esc_html_e( 'All Accounts', 'fafw' ); ?></option>
 							<?php foreach ($handler->view['accounts'] as $acslug => $acc) { ?>
-								<option value="<?=$acslug?>"><?=$acc['name']?></option>
+								<option value="<?php esc_attr_e($acslug); ?>"><?php esc_html_e($acc['name']); ?></option>
 							<?php } ?>
 						</select>
 						<select name="items" v-model="filters.pid" @change="getSpendings">
 							<option value="0"><?php esc_html_e( 'All Items', 'fafw' ); ?></option>
 							<?php foreach ($handler->view['products'] as $product) { ?>
-								<option value="<?=$product->get_id()?>"><?=$product->get_name()?></option>
+								<option value="<?php esc_attr_e($product->get_id()); ?>"><?php esc_html_e($product->get_name()); ?></option>
 							<?php } ?>
 						</select>
 					</div>
@@ -246,7 +246,7 @@
 									<b><?php esc_html_e( 'Paid With', 'fafw' ); ?></b>
 									<select name="paidwith">
 										<?php foreach ($handler->view['accounts'] as $acslug => $acc) { ?>
-											<option value="<?=$acslug?>"><?=$acc['name']?></option>
+											<option value="<?php esc_attr_e($acslug); ?>"><?php esc_html_e($acc['name']); ?></option>
 										<?php } ?>
 									</select>
 								</div>
@@ -259,7 +259,7 @@
 									<select name="items">
 										<option value="0"><?php esc_html_e( 'All Items', 'fafw' ); ?></option>
 										<?php foreach ($handler->view['products'] as $product) { ?>
-											<option value="<?=$product->get_id()?>"><?=$product->get_name()?></option>
+											<option value="<?php esc_attr_e($product->get_id()); ?>"><?php esc_html_e($product->get_name()); ?></option>
 										<?php } ?>
 									</select>
 								</div>
@@ -331,7 +331,7 @@
 									<b><?php esc_html_e( 'Paid With', 'fafw' ); ?></b>
 									<select name="paidwith" v-model="row.paidwith">
 										<?php foreach ($handler->view['accounts'] as $acslug => $acc) { ?>
-											<option value="<?=$acslug?>"><?=$acc['name']?></option>
+											<option value="<?php esc_attr_e($acslug); ?>"><?php esc_html_e($acc['name']); ?></option>
 										<?php } ?>
 									</select>
 								</div>
@@ -344,7 +344,7 @@
 									<select name="items">
 										<option value="0"><?php esc_html_e( 'All Items', 'fafw' ); ?></option>
 										<?php foreach ($handler->view['products'] as $product) { ?>
-											<option value="<?=$product->get_id()?>"><?=$product->get_name()?></option>
+											<option value="<?php esc_attr_e($product->get_id()); ?>"><?php esc_html_e($product->get_name()); ?></option>
 										<?php } ?>
 									</select>
 								</div>

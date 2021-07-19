@@ -18,7 +18,7 @@
 		<div class="fin-head-left">
 			<span><?php _e('Taxes', 'fafw'); ?></span>
 			<img src="<?php echo FAFW_BASE_URL; ?>admin/assets/img/arrow-right.svg" class="icon">
-			<span><?=$handler->selyear?></span>
+			<span><?php esc_html_e($handler->selyear); ?></span>
 		</div>
 		<div class="fin-head-right">
 			<div class="fin-timeframe">
@@ -26,7 +26,7 @@
 				<?php wp_nonce_field( 'fafwpost', 'nonce' ); ?>
 					<select name="year">
 						<?php foreach ($handler->getYears() as $yk => $yv) { ?>
-							<option value="<?=$yk?>" <?=$yk==$handler->selyear?'selected':''?>><?=$yv?></option>
+							<option value="<?php esc_attr_e($yk); ?>" <?php esc_attr_e($yk==$handler->selyear?'selected':''); ?>><?php esc_html_e($yv); ?></option>
 						<?php } ?>
 					</select>
 					<button class="button-go"><?php _e('Go', 'fafw'); ?></button>
@@ -40,7 +40,7 @@
 			<table class="fin-taxes-table" cellpadding="0" cellspacing="0" class="m1">
 				<thead>
 					<tr>
-						<th class="tal"><?=$handler->selyear?></th>
+						<th class="tal"><?php esc_html_e($handler->selyear); ?></th>
 						<th><?php _e('Payable', 'fafw'); ?> ({{currencySymbol}})</th>
 						<th><?php _e('Receivable', 'fafw'); ?> ({{currencySymbol}})</th>
 						<th><?php _e('Paid', 'fafw'); ?> ({{currencySymbol}})</th>
@@ -50,21 +50,21 @@
 				<tbody>
 					<?php foreach($handler->view['taxes'] as $mname=>$mvals) { ?>
 						<tr>
-						<td class="tal b"><?=$mname?></td>
-						<td><?=$mvals['payable']>0?'<a @click="listPayableTaxes(\''.$mvals['msu'].'\',\''.$mvals['mse'].'\')">'.$mvals['payable'].'</a>':0?></td>
-						<td><?=$mvals['receivable']?></td>
-						<td><?=$mvals['paid']?></td>
-						<td class="<?=$mvals['balance']>0?'minus':'plus'?> b"><?=$mvals['balance']?></td>
+						<td class="tal b"><?php esc_html_e($mname); ?></td>
+						<td><?php echo $mvals['payable']>0?'<a @click="listPayableTaxes(\''.esc_attr($mvals['msu']).'\',\''.esc_attr($mvals['mse']).'\')">'.esc_html($mvals['payable']).'</a>':0; ?></td>
+						<td><?php esc_html_e($mvals['receivable']); ?></td>
+						<td><?php esc_html_e($mvals['paid']); ?></td>
+						<td class="<?php esc_attr_e($mvals['balance']>0?'minus':'plus'); ?> b"><?php esc_html_e($mvals['balance']); ?></td>
 					</tr>
 					<?php } ?>
 				</tbody>
 				<tfoot>
 					<tr>
 						<th class="tal b"><?php _e('Totals', 'fafw'); ?></th>
-						<th><?=$handler->view['totals']['payable']?></th>
-						<th><?=$handler->view['totals']['receivable']?></th>
-						<th><?=$handler->view['totals']['paid']?></th>
-						<th class="<?=$handler->view['totals']['balance']>0?'minus':'plus'?> b"><?=$handler->view['totals']['balance']?></th>
+						<th><?php esc_html_e($handler->view['totals']['payable']); ?></th>
+						<th><?php esc_html_e($handler->view['totals']['receivable']); ?></th>
+						<th><?php esc_html_e($handler->view['totals']['paid']); ?></th>
+						<th class="<?php esc_attr_e($handler->view['totals']['balance']>0?'minus':'plus'); ?> b"><?php esc_html_e($handler->view['totals']['balance']); ?></th>
 					</tr>
 				</tfoot>
 			</table>

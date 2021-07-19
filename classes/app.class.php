@@ -25,10 +25,6 @@ if ( !class_exists( 'fafw_app' ) ) {
 
     public $view = array();
 
-    public $cookiepath = '';
-    public $cookiehost = '';
-    public $cookieexpire = '';
-
     /**
 	 * Finpose App Constructor
 	 */
@@ -40,11 +36,6 @@ if ( !class_exists( 'fafw_app' ) ) {
       $this->curq = ceil(date("n") / 3);
 
       $this->view['years'] = $this->getYears();
-      
-
-      $this->cookiepath = parse_url(get_option('siteurl'), PHP_URL_PATH);
-      $this->cookiehost = parse_url(get_option('siteurl'), PHP_URL_HOST);
-      $this->cookieexpire = strtotime('+1 month');
 
       require 'put.class.php';
       $this->put = new fafw_put($this->db);

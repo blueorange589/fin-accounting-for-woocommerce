@@ -1,7 +1,7 @@
 <div class="prowrap">
 	<h1>Unlock Premium Features</h1>
 	<div class="logowrap">
-		<img src="https://finpose.com/wp-content/uploads/2021/05/finpose-logo.svg" />
+		<img src="<?php echo FAFW_BASE_URL; ?>admin/assets/pro/finpose-logo.svg" />
 		<span>Take accounting to next level for your WooCommerce store by adding modules below.</span>
 	</div>
 	<div class="cards">

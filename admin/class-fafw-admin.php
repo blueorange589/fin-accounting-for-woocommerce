@@ -89,9 +89,6 @@ if ( !class_exists( 'fafw_Admin' ) ) {
           if(!in_array($this->pageName, array('pro'))) {
             wp_enqueue_script( 'vuepage', FAFW_BASE_URL . 'admin/assets/js/pages/'.$this->pageName.'.js', array( 'vue', 'fafwmain' ), $this->version, true );
           }
-          if(in_array($this->pageName, array('dashboard'))) {
-            wp_enqueue_script( 'finchart', FAFW_BASE_URL . 'admin/assets/js/Chart.min.js', array( 'jquery' ), $this->version, false );
-          }
           wp_enqueue_script( 'table2csv', FAFW_BASE_URL . 'admin/assets/js/jquery.tabletoCSV.js', array( 'jquery' ), $this->version, false );
           wp_enqueue_script( 'toastr', FAFW_BASE_URL . 'admin/assets/js/toastr.min.js', array( 'jquery' ), $this->version, false );
           

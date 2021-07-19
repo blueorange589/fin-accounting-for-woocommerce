@@ -111,13 +111,8 @@ if ( !class_exists( 'fafw_taxes' ) ) {
 	 * Get list of taxes
 	 */
     public function getTaxes() {
-      if(isset($_COOKIE["selyear"])) {
-        $this->selyear = $_COOKIE["selyear"];
-      }
-
       if(isset($this->post['year'])) {
         $this->selyear = $this->post['year'];
-        setcookie('selyear', $this->post['year'], $this->cookieexpire, $this->cookiepath, $this->cookiehost);
       }
 
       $mstart = $this->selyear.'-01-01';

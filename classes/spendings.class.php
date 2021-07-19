@@ -274,12 +274,39 @@ if ( !class_exists( 'fafw_spendings' ) ) {
     $this->success = true;
   }
 
+  private function sanitizeFileUpload($file) {
+    if(!current_user_can('upload_files')) { 
+      $this->message = __('Insufficient permissions', 'fafw');
+      return false; 
+    }
+
+    $fileInfo = wp_check_filetype(basename($file['name']));
+    if (empty($fileInfo['ext']))  { 
+      $this->message = __('An invalid image was supplied.', 'fafw');
+      return false; 
+    }
+
+    if(!in_array($fileInfo['ext'], array('jpg', 'jpeg', 'png', 'pdf', 'doc', 'docx', 'xls'))) {
+      $this->message = __('Invalid file format', 'fafw');
+      return false; 
+    }
+
+    if (!@getimagesize($file['tmp_name'])) { 
+      $this->message = __('An invalid image was supplied.', 'fafw');
+      return false; 
+    }
+   
+  return $file;
+  }
+
   /**
 	 * Attach file to the spending
 	 */
   public function attachFile() {
     require_once(ABSPATH.'wp-admin/includes/file.php');
-    $uploadedfile = $_FILES['file'];
+
+    $uploadedfile = $this->sanitizeFileUpload($_FILES['file']);
+    if(!$uploadedfile) { return false; }
     $key = $this->post['key'];
     $movefile = wp_handle_upload($uploadedfile, array('test_form' => false)); 
     

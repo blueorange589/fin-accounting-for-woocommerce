@@ -17,7 +17,7 @@
 			<div class="sales-figures">
 				<div class="sales-figure">
 					<div class="sf-number">
-					<?=esc_html($handler->view['info']['qty'])?>
+					<?php esc_html_e($handler->view['info']['qty']); ?>
 					</div>
 					<div class="sf-title">
 						<?php _e('Items sold', 'fafw'); ?>
@@ -25,7 +25,7 @@
 				</div>
 				<div class="sales-figure">
 					<div class="sf-number">
-					{{currencySymbol}}<?=esc_html($handler->view['info']['total'])?>
+					{{currencySymbol}}<?php esc_html_e($handler->view['info']['total']); ?>
 					</div>
 					<div class="sf-title">
 						<?php _e('Total', 'fafw'); ?>
@@ -33,7 +33,7 @@
 				</div>
 				<div class="sales-figure">
 					<div class="sf-number">
-					{{currencySymbol}}<?=esc_html($handler->view['info']['avg'])?>
+					{{currencySymbol}}<?php esc_html_e($handler->view['info']['avg']); ?>
 					</div>
 					<div class="sf-title">
 						<?php _e('Avg. Order Value', 'fafw'); ?>
@@ -41,7 +41,7 @@
 				</div>
 				<div class="sales-figure">
 					<div class="sf-number">
-						<?=esc_html($handler->view['info']['avgtime'])?>
+						<?php esc_html_e($handler->view['info']['avgtime']); ?>
 					</div>
 					<div class="sf-title">
 						<?php _e('Average Time for Sale', 'fafw'); ?>
@@ -49,7 +49,7 @@
 				</div>
 				<div class="sales-figure">
 					<div class="sf-number">
-					{{currencySymbol}}<?=esc_html($handler->view['info']['pl'])?>
+					{{currencySymbol}}<?php esc_html_e($handler->view['info']['pl']); ?>
 					</div>
 					<div class="sf-title">
 						<?php _e('Profit / Loss', 'fafw'); ?>
@@ -118,7 +118,7 @@
 								<select name="gateway" v-model="filters.gateway">
 									<option></option>
 									<?php foreach($handler->view['gwlist'] as $gwid=>$gwname) { ?>
-										<option value="<?=$gwid?>"><?=$gwname?></option>
+										<option value="<?php esc_attr_e($gwid); ?>"><?php esc_html_e($gwname); ?></option>
 									<?php } ?>
 								</select>
 							</div>
